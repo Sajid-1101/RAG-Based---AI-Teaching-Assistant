@@ -1,0 +1,600 @@
+{
+  "chunks": [
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 0.0,
+      "end": 6.7,
+      "text": " So we are going to start web development with HTML and more specifically with HTML5"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 6.7,
+      "end": 8.2,
+      "text": " Now what is HTML?"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 8.2,
+      "end": 11.700000000000001,
+      "text": " If we want to start coding, learn coding, learn programming"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 11.700000000000001,
+      "end": 15.0,
+      "text": " then HTML is one of the easiest things in the world of coding"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 15.0,
+      "end": 17.0,
+      "text": " with which we can start learning coding"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 17.0,
+      "end": 21.2,
+      "text": " In fact, in some schools HTML is taught in 7th and 8th class"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 21.2,
+      "end": 25.0,
+      "text": " So we will start our web development journey from such an easy level"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 25.0,
+      "end": 30.0,
+      "text": " Let's talk about HTML, its full form is Hyper Text Markup Language"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 30.0,
+      "end": 35.0,
+      "text": " This is a language which counts like a markup language"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 35.0,
+      "end": 43.0,
+      "text": " Markup language means HTML tells us about the structure and formatting of all the things written on a website"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 43.0,
+      "end": 47.0,
+      "text": " If I am looking at a website, then a paragraph will come in it"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 47.0,
+      "end": 50.0,
+      "text": " or a button will come, or a heading, or a title"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 50.0,
+      "end": 53.0,
+      "text": " or I should see an image there"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 53.0,
+      "end": 58.0,
+      "text": " HTML makes all these things for us, explains to a browser"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 58.0,
+      "end": 62.0,
+      "text": " that how things should look on a website, how should their formatting be"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 62.0,
+      "end": 68.0,
+      "text": " One thing we have to keep in mind, here we are not talking about style, color, font"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 68.0,
+      "end": 74.0,
+      "text": " Here we are talking about what we will see on a web page and in which formatting"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 74.0,
+      "end": 80.0,
+      "text": " Now usually HTML is not treated as a hardcore programming language in coding"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 80.0,
+      "end": 83.0,
+      "text": " Because HTML does not have complex things"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 83.0,
+      "end": 90.0,
+      "text": " HTML is very simple and in fact if you teach a child, he will also understand programming very quickly"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 90.0,
+      "end": 92.0,
+      "text": " if he starts with HTML"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 92.0,
+      "end": 96.0,
+      "text": " First of all, let's talk about what exactly HTML does"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 96.0,
+      "end": 102.0,
+      "text": " If I talk about a normal text, means I have written a simple sentence or paragraph"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 102.0,
+      "end": 104.0,
+      "text": " then it can look like this"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 104.0,
+      "end": 108.0,
+      "text": " In this way, I have written a lot of things in a normal text"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 108.0,
+      "end": 110.0,
+      "text": " If I have to put formatting on this text"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 110.0,
+      "end": 114.0,
+      "text": " Formatting means that I want to add bullet points in some things"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 114.0,
+      "end": 122.0,
+      "text": " I want to write some words in bold, some words in italic, some words I want to underline"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 122.0,
+      "end": 128.0,
+      "text": " After this line, I want to start the next bullet points in the next line"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 128.0,
+      "end": 130.0,
+      "text": " This is called formatting"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 130.0,
+      "end": 134.0,
+      "text": " Instead of writing all the information one after the other"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 134.0,
+      "end": 136.0,
+      "text": " Instead of writing all the information one after the other"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 136.0,
+      "end": 140.0,
+      "text": " We present our text or data in a better form"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 140.0,
+      "end": 144.0,
+      "text": " If this is a normal text, then its formatted form will be something like this"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 144.0,
+      "end": 146.0,
+      "text": " In which the line will be written in this way in the beginning"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 146.0,
+      "end": 148.0,
+      "text": " After that I have added bullet points"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 148.0,
+      "end": 151.0,
+      "text": " After that I have made the word bold"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 151.0,
+      "end": 155.0,
+      "text": " And if I look at H2O, which is the molecular formula of water"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 155.0,
+      "end": 157.0,
+      "text": " In that too, 2 is small"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 157.0,
+      "end": 160.0,
+      "text": " If you write it in normal text, then H2 will be as big"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 160.0,
+      "end": 164.0,
+      "text": " So in this way, what thing is to be presented in which way"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 164.0,
+      "end": 166.0,
+      "text": " It makes us HTML"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 166.0,
+      "end": 172.0,
+      "text": " So we use a normal plain text to convert it into formatted text"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 172.0,
+      "end": 175.0,
+      "text": " So in a way we can understand that HTML tells our browser"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 175.0,
+      "end": 178.0,
+      "text": " That is, Chrome, Safari, Edge"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 178.0,
+      "end": 182.0,
+      "text": " It tells all these rules that how to present our plain text"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 182.0,
+      "end": 185.0,
+      "text": " Now let's talk about a normal Google search page"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 185.0,
+      "end": 189.0,
+      "text": " If I right click on this page, then I have a lot of options"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 189.0,
+      "end": 191.0,
+      "text": " I have all the options in Mac"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 191.0,
+      "end": 193.0,
+      "text": " But if you are using Windows or Linux"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 193.0,
+      "end": 195.0,
+      "text": " So in that too, if you are on Chrome"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 195.0,
+      "end": 197.0,
+      "text": " So there you will get an option of a page source"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 197.0,
+      "end": 199.0,
+      "text": " And you will get an option of an inspect"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 199.0,
+      "end": 201.0,
+      "text": " First of all, I am going to click on the page source"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 201.0,
+      "end": 203.0,
+      "text": " So what will I know"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 203.0,
+      "end": 207.0,
+      "text": " I will get all the code of this page written for me"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 207.0,
+      "end": 209.0,
+      "text": " And if I notice this"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 209.0,
+      "end": 212.0,
+      "text": " So here it starts with a doc type HTML"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 212.0,
+      "end": 216.0,
+      "text": " That is, this whole thing is an HTML file"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 216.0,
+      "end": 217.0,
+      "text": " So this is the code of HTML"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 217.0,
+      "end": 220.0,
+      "text": " Which tells how to present data"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 220.0,
+      "end": 222.0,
+      "text": " Where is the button coming"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 222.0,
+      "end": 224.0,
+      "text": " What is the font of Google"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 224.0,
+      "end": 225.0,
+      "text": " How is the photo going to be"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 225.0,
+      "end": 228.0,
+      "text": " So all these things are told to a browser"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 228.0,
+      "end": 232.0,
+      "text": " And HTML again takes out all the information for formatting"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 232.0,
+      "end": 234.0,
+      "text": " Here if I come back to my Google page"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 234.0,
+      "end": 236.0,
+      "text": " I right click and click on inspect"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 236.0,
+      "end": 238.0,
+      "text": " So a window opens for me"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 238.0,
+      "end": 241.0,
+      "text": " Now after clicking on this arrow here"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 241.0,
+      "end": 243.0,
+      "text": " I am going to scroll on my page"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 243.0,
+      "end": 246.0,
+      "text": " So here I will know that a lot of boxes are being made"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 246.0,
+      "end": 248.0,
+      "text": " Google is in a single box"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 248.0,
+      "end": 250.0,
+      "text": " Search is also in a single box"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 250.0,
+      "end": 253.0,
+      "text": " If I talk about this small search, it is also in a box"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 253.0,
+      "end": 257.0,
+      "text": " If I talk about these icons, then this is also in a rectangular box"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 257.0,
+      "end": 259.0,
+      "text": " I can see all the things"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 259.0,
+      "end": 262.0,
+      "text": " Why do things appear in these rectangular boxes"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 262.0,
+      "end": 264.0,
+      "text": " We are going to read about it in detail"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 264.0,
+      "end": 266.0,
+      "text": " When we talk about HTML elements"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 266.0,
+      "end": 268.0,
+      "text": " But these are actually small elements"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 268.0,
+      "end": 271.0,
+      "text": " From which a whole web page is made"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 271.0,
+      "end": 273.0,
+      "text": " And here inside the elements"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 273.0,
+      "end": 276.0,
+      "text": " All my HTML code is there"
+    },
+    {
+      "title": "Introduction to HTML",
+      "number": "01",
+      "start": 276.0,
+      "end": 282.0,
+      "text": " Which tells how this page will look in this formatting due to HTML"
+    }
+  ],
+  "text": " So we are going to start web development with HTML and more specifically with HTML5 Now what is HTML? If we want to start coding, learn coding, learn programming then HTML is one of the easiest things in the world of coding with which we can start learning coding In fact, in some schools HTML is taught in 7th and 8th class So we will start our web development journey from such an easy level Let's talk about HTML, its full form is Hyper Text Markup Language This is a language which counts like a markup language Markup language means HTML tells us about the structure and formatting of all the things written on a website If I am looking at a website, then a paragraph will come in it or a button will come, or a heading, or a title or I should see an image there HTML makes all these things for us, explains to a browser that how things should look on a website, how should their formatting be One thing we have to keep in mind, here we are not talking about style, color, font Here we are talking about what we will see on a web page and in which formatting Now usually HTML is not treated as a hardcore programming language in coding Because HTML does not have complex things HTML is very simple and in fact if you teach a child, he will also understand programming very quickly if he starts with HTML First of all, let's talk about what exactly HTML does If I talk about a normal text, means I have written a simple sentence or paragraph then it can look like this In this way, I have written a lot of things in a normal text If I have to put formatting on this text Formatting means that I want to add bullet points in some things I want to write some words in bold, some words in italic, some words I want to underline After this line, I want to start the next bullet points in the next line This is called formatting Instead of writing all the information one after the other Instead of writing all the information one after the other We present our text or data in a better form If this is a normal text, then its formatted form will be something like this In which the line will be written in this way in the beginning After that I have added bullet points After that I have made the word bold And if I look at H2O, which is the molecular formula of water In that too, 2 is small If you write it in normal text, then H2 will be as big So in this way, what thing is to be presented in which way It makes us HTML So we use a normal plain text to convert it into formatted text So in a way we can understand that HTML tells our browser That is, Chrome, Safari, Edge It tells all these rules that how to present our plain text Now let's talk about a normal Google search page If I right click on this page, then I have a lot of options I have all the options in Mac But if you are using Windows or Linux So in that too, if you are on Chrome So there you will get an option of a page source And you will get an option of an inspect First of all, I am going to click on the page source So what will I know I will get all the code of this page written for me And if I notice this So here it starts with a doc type HTML That is, this whole thing is an HTML file So this is the code of HTML Which tells how to present data Where is the button coming What is the font of Google How is the photo going to be So all these things are told to a browser And HTML again takes out all the information for formatting Here if I come back to my Google page I right click and click on inspect So a window opens for me Now after clicking on this arrow here I am going to scroll on my page So here I will know that a lot of boxes are being made Google is in a single box Search is also in a single box If I talk about this small search, it is also in a box If I talk about these icons, then this is also in a rectangular box I can see all the things Why do things appear in these rectangular boxes We are going to read about it in detail When we talk about HTML elements But these are actually small elements From which a whole web page is made And here inside the elements All my HTML code is there Which tells how this page will look in this formatting due to HTML"
+}

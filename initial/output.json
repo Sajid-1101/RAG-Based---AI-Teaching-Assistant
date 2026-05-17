@@ -1,0 +1,331 @@
+[
+  {
+    "start": 0.0,
+    "end": 6.7,
+    "text": " So we are going to start web development with HTML and more specifically with HTML5"
+  },
+  { "start": 6.7, "end": 8.2, "text": " Now what is HTML?" },
+  {
+    "start": 8.2,
+    "end": 11.700000000000001,
+    "text": " If we want to start coding, learn coding, learn programming"
+  },
+  {
+    "start": 11.700000000000001,
+    "end": 15.0,
+    "text": " then HTML is one of the easiest things in the world of coding"
+  },
+  {
+    "start": 15.0,
+    "end": 17.0,
+    "text": " with which we can start learning coding"
+  },
+  {
+    "start": 17.0,
+    "end": 21.2,
+    "text": " In fact, in some schools HTML is taught in 7th and 8th class"
+  },
+  {
+    "start": 21.2,
+    "end": 25.0,
+    "text": " So we will start our web development journey from such an easy level"
+  },
+  {
+    "start": 25.0,
+    "end": 30.0,
+    "text": " Let's talk about HTML, its full form is Hyper Text Markup Language"
+  },
+  {
+    "start": 30.0,
+    "end": 35.0,
+    "text": " This is a language which counts like a markup language"
+  },
+  {
+    "start": 35.0,
+    "end": 43.0,
+    "text": " Markup language means HTML tells us about the structure and formatting of all the things written on a website"
+  },
+  {
+    "start": 43.0,
+    "end": 47.0,
+    "text": " If I am looking at a website, then a paragraph will come in it"
+  },
+  {
+    "start": 47.0,
+    "end": 50.0,
+    "text": " or a button will come, or a heading, or a title"
+  },
+  { "start": 50.0, "end": 53.0, "text": " or I should see an image there" },
+  {
+    "start": 53.0,
+    "end": 58.0,
+    "text": " HTML makes all these things for us, explains to a browser"
+  },
+  {
+    "start": 58.0,
+    "end": 62.0,
+    "text": " that how things should look on a website, how should their formatting be"
+  },
+  {
+    "start": 62.0,
+    "end": 68.0,
+    "text": " One thing we have to keep in mind, here we are not talking about style, color, font"
+  },
+  {
+    "start": 68.0,
+    "end": 74.0,
+    "text": " Here we are talking about what we will see on a web page and in which formatting"
+  },
+  {
+    "start": 74.0,
+    "end": 80.0,
+    "text": " Now usually HTML is not treated as a hardcore programming language in coding"
+  },
+  {
+    "start": 80.0,
+    "end": 83.0,
+    "text": " Because HTML does not have complex things"
+  },
+  {
+    "start": 83.0,
+    "end": 90.0,
+    "text": " HTML is very simple and in fact if you teach a child, he will also understand programming very quickly"
+  },
+  { "start": 90.0, "end": 92.0, "text": " if he starts with HTML" },
+  {
+    "start": 92.0,
+    "end": 96.0,
+    "text": " First of all, let's talk about what exactly HTML does"
+  },
+  {
+    "start": 96.0,
+    "end": 102.0,
+    "text": " If I talk about a normal text, means I have written a simple sentence or paragraph"
+  },
+  { "start": 102.0, "end": 104.0, "text": " then it can look like this" },
+  {
+    "start": 104.0,
+    "end": 108.0,
+    "text": " In this way, I have written a lot of things in a normal text"
+  },
+  {
+    "start": 108.0,
+    "end": 110.0,
+    "text": " If I have to put formatting on this text"
+  },
+  {
+    "start": 110.0,
+    "end": 114.0,
+    "text": " Formatting means that I want to add bullet points in some things"
+  },
+  {
+    "start": 114.0,
+    "end": 122.0,
+    "text": " I want to write some words in bold, some words in italic, some words I want to underline"
+  },
+  {
+    "start": 122.0,
+    "end": 128.0,
+    "text": " After this line, I want to start the next bullet points in the next line"
+  },
+  { "start": 128.0, "end": 130.0, "text": " This is called formatting" },
+  {
+    "start": 130.0,
+    "end": 134.0,
+    "text": " Instead of writing all the information one after the other"
+  },
+  {
+    "start": 134.0,
+    "end": 136.0,
+    "text": " Instead of writing all the information one after the other"
+  },
+  {
+    "start": 136.0,
+    "end": 140.0,
+    "text": " We present our text or data in a better form"
+  },
+  {
+    "start": 140.0,
+    "end": 144.0,
+    "text": " If this is a normal text, then its formatted form will be something like this"
+  },
+  {
+    "start": 144.0,
+    "end": 146.0,
+    "text": " In which the line will be written in this way in the beginning"
+  },
+  {
+    "start": 146.0,
+    "end": 148.0,
+    "text": " After that I have added bullet points"
+  },
+  {
+    "start": 148.0,
+    "end": 151.0,
+    "text": " After that I have made the word bold"
+  },
+  {
+    "start": 151.0,
+    "end": 155.0,
+    "text": " And if I look at H2O, which is the molecular formula of water"
+  },
+  { "start": 155.0, "end": 157.0, "text": " In that too, 2 is small" },
+  {
+    "start": 157.0,
+    "end": 160.0,
+    "text": " If you write it in normal text, then H2 will be as big"
+  },
+  {
+    "start": 160.0,
+    "end": 164.0,
+    "text": " So in this way, what thing is to be presented in which way"
+  },
+  { "start": 164.0, "end": 166.0, "text": " It makes us HTML" },
+  {
+    "start": 166.0,
+    "end": 172.0,
+    "text": " So we use a normal plain text to convert it into formatted text"
+  },
+  {
+    "start": 172.0,
+    "end": 175.0,
+    "text": " So in a way we can understand that HTML tells our browser"
+  },
+  { "start": 175.0, "end": 178.0, "text": " That is, Chrome, Safari, Edge" },
+  {
+    "start": 178.0,
+    "end": 182.0,
+    "text": " It tells all these rules that how to present our plain text"
+  },
+  {
+    "start": 182.0,
+    "end": 185.0,
+    "text": " Now let's talk about a normal Google search page"
+  },
+  {
+    "start": 185.0,
+    "end": 189.0,
+    "text": " If I right click on this page, then I have a lot of options"
+  },
+  { "start": 189.0, "end": 191.0, "text": " I have all the options in Mac" },
+  {
+    "start": 191.0,
+    "end": 193.0,
+    "text": " But if you are using Windows or Linux"
+  },
+  {
+    "start": 193.0,
+    "end": 195.0,
+    "text": " So in that too, if you are on Chrome"
+  },
+  {
+    "start": 195.0,
+    "end": 197.0,
+    "text": " So there you will get an option of a page source"
+  },
+  {
+    "start": 197.0,
+    "end": 199.0,
+    "text": " And you will get an option of an inspect"
+  },
+  {
+    "start": 199.0,
+    "end": 201.0,
+    "text": " First of all, I am going to click on the page source"
+  },
+  { "start": 201.0, "end": 203.0, "text": " So what will I know" },
+  {
+    "start": 203.0,
+    "end": 207.0,
+    "text": " I will get all the code of this page written for me"
+  },
+  { "start": 207.0, "end": 209.0, "text": " And if I notice this" },
+  {
+    "start": 209.0,
+    "end": 212.0,
+    "text": " So here it starts with a doc type HTML"
+  },
+  {
+    "start": 212.0,
+    "end": 216.0,
+    "text": " That is, this whole thing is an HTML file"
+  },
+  { "start": 216.0, "end": 217.0, "text": " So this is the code of HTML" },
+  { "start": 217.0, "end": 220.0, "text": " Which tells how to present data" },
+  { "start": 220.0, "end": 222.0, "text": " Where is the button coming" },
+  { "start": 222.0, "end": 224.0, "text": " What is the font of Google" },
+  { "start": 224.0, "end": 225.0, "text": " How is the photo going to be" },
+  {
+    "start": 225.0,
+    "end": 228.0,
+    "text": " So all these things are told to a browser"
+  },
+  {
+    "start": 228.0,
+    "end": 232.0,
+    "text": " And HTML again takes out all the information for formatting"
+  },
+  {
+    "start": 232.0,
+    "end": 234.0,
+    "text": " Here if I come back to my Google page"
+  },
+  {
+    "start": 234.0,
+    "end": 236.0,
+    "text": " I right click and click on inspect"
+  },
+  { "start": 236.0, "end": 238.0, "text": " So a window opens for me" },
+  {
+    "start": 238.0,
+    "end": 241.0,
+    "text": " Now after clicking on this arrow here"
+  },
+  { "start": 241.0, "end": 243.0, "text": " I am going to scroll on my page" },
+  {
+    "start": 243.0,
+    "end": 246.0,
+    "text": " So here I will know that a lot of boxes are being made"
+  },
+  { "start": 246.0, "end": 248.0, "text": " Google is in a single box" },
+  { "start": 248.0, "end": 250.0, "text": " Search is also in a single box" },
+  {
+    "start": 250.0,
+    "end": 253.0,
+    "text": " If I talk about this small search, it is also in a box"
+  },
+  {
+    "start": 253.0,
+    "end": 257.0,
+    "text": " If I talk about these icons, then this is also in a rectangular box"
+  },
+  { "start": 257.0, "end": 259.0, "text": " I can see all the things" },
+  {
+    "start": 259.0,
+    "end": 262.0,
+    "text": " Why do things appear in these rectangular boxes"
+  },
+  {
+    "start": 262.0,
+    "end": 264.0,
+    "text": " We are going to read about it in detail"
+  },
+  { "start": 264.0, "end": 266.0, "text": " When we talk about HTML elements" },
+  {
+    "start": 266.0,
+    "end": 268.0,
+    "text": " But these are actually small elements"
+  },
+  {
+    "start": 268.0,
+    "end": 271.0,
+    "text": " From which a whole web page is made"
+  },
+  { "start": 271.0, "end": 273.0, "text": " And here inside the elements" },
+  { "start": 273.0, "end": 276.0, "text": " All my HTML code is there" },
+  {
+    "start": 276.0,
+    "end": 282.0,
+    "text": " Which tells how this page will look in this formatting due to HTML"
+  }
+]
