@@ -1,0 +1,103 @@
+{
+    "chunks": [
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 0.0,
+            "end": 20.2,
+            "text": " Now, first of all, we are going to talk about the paragraph element.  To create a paragraph element, we use the P tag in HTML, which represents a paragraph.  Now, whenever we talk about a paragraph, it does not mean just text.  Paragraph means all the content that we have to display together.  So it is not necessary that it only contains text."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 20.2,
+            "end": 37.76,
+            "text": " It may also contain bold text.  In a paragraph, we may want to display both image and text together.  So, we use the paragraph tag to display all the content that we want to display together.  Now, another special thing about the paragraph tag is that it also creates space.  How?"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 37.76,
+            "end": 56.44,
+            "text": " Let's go to our HTML file and see.  I wrote paragraph tags in my file.  And I am going to write in it, this is my first paragraph.  Now, after writing this is my first paragraph, I gave a lot of space.  And the next thing I am going to write, this is my second paragraph."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 56.48,
+            "end": 73.24,
+            "text": " Now, I am going to give a space of one line and display it.  Let's save it.  And as soon as I saved it, all the information came on the same line.  Why is this happening?  If you are saving in your VS Code and if you are trying to save it on the next line and"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 73.24,
+            "end": 94.04,
+            "text": " things are not coming on the same line, then also the output will be the same.  That is, if I write two paragraphs in a paragraph, then all the information comes on the same line.  Let's assume that I gave a lot of space here and now I saved it.  Then also it is coming on the same line.  The conclusion from here is that HTML, which gives more than one space or wants to display"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 94.04,
+            "end": 115.44,
+            "text": " things on more than one next line, HTML does not recognize all of them.  If you have written things in a single paragraph tag, then all those things will be displayed  together, that is, they will be displayed in a single line, no matter how big you display  things in a line.  That means, if I want to copy and paste the same thing again and again, then I save it."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 115.48,
+            "end": 135.88,
+            "text": " And now if I refresh it, then all the things will be displayed one after the other.  But if I need a little space to display these things, then I will have to create a new paragraph  tag.  Like if I remove half the information from here and then if I write a paragraph tag,  then I can display all this information in it and now things will be on two different"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 135.88,
+            "end": 153.28,
+            "text": " lines.  So usually if this is a set of information and if this is my second set of information  and if I want to display both of them in different paragraphs, then I will have to  use two paragraph tags.  That is why we use the paragraph tag to display connected or related information or content."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 153.28,
+            "end": 175.4,
+            "text": " So the first paragraph I have is related information in it, the second paragraph I have is also  related information in it.  If you want or not, in a single paragraph tag, I will write things in the next line  like this and they will be displayed in the next line only in HTML.  If you want, you can give any extra space or extra line here, HTML ignores all of them,"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 175.4,
+            "end": 192.88,
+            "text": " HTML only recognizes tags.  If things are written in the paragraph tag, then extra space or extra line HTML will  not let you add, it will collect all the things and present them together.  That is why to show multiple things, to show multiple related content, we have to use  multiple tags."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 192.88,
+            "end": 213.88,
+            "text": " So let's save it once.  Now if I want to show this last paragraph in bold, then I can use the bold tag here  and I have cut the last paragraph, the last line, I have cut this whole line and pasted  it inside the bold tag.  So here this is my normal paragraph, this is my normal paragraph and in the second paragraph"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 213.88,
+            "end": 232.88,
+            "text": " I have written the whole line in bold.  Now if I refresh it, then this is my first paragraph printed, this is my second paragraph  printed and the last line here is represented in bold.  When we write another tag in one tag, then this phenomenon is called nesting in the language  of programming."
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 232.88,
+            "end": 250.88,
+            "text": " Nesting and these tags of mine, we will call them nested tags.  So nesting means when something else comes inside one thing.  So inside one tag, like there is a nest, that is, there is a nest of a bird, so inside it  there are small children of the bird.  Similarly, we can imagine that there is a big tag of the paragraph, inside it I have"
+        },
+        {
+            "number": "04",
+            "title": "Paragraph Element",
+            "start": 250.88,
+            "end": 261.88,
+            "text": " added another tag, that is, I have added a small bold tag inside it, added the tag of  the image or added some other tag, then it will become the phenomenon of my nesting.  So we will call them our nested tags."
+        }
+    ],
+    "text": " Now, first of all, we are going to talk about the paragraph element. To create a paragraph element, we use the P tag in HTML, which represents a paragraph. Now, whenever we talk about a paragraph, it does not mean just text. Paragraph means all the content that we have to display together. So it is not necessary that it only contains text. It may also contain bold text. In a paragraph, we may want to display both image and text together. So, we use the paragraph tag to display all the content that we want to display together. Now, another special thing about the paragraph tag is that it also creates space. How? Let's go to our HTML file and see. I wrote paragraph tags in my file. And I am going to write in it, this is my first paragraph. Now, after writing this is my first paragraph, I gave a lot of space. And the next thing I am going to write, this is my second paragraph. Now, I am going to give a space of one line and display it. Let's save it. And as soon as I saved it, all the information came on the same line. Why is this happening? If you are saving in your VS Code and if you are trying to save it on the next line and things are not coming on the same line, then also the output will be the same. That is, if I write two paragraphs in a paragraph, then all the information comes on the same line. Let's assume that I gave a lot of space here and now I saved it. Then also it is coming on the same line. The conclusion from here is that HTML, which gives more than one space or wants to display things on more than one next line, HTML does not recognize all of them. If you have written things in a single paragraph tag, then all those things will be displayed together, that is, they will be displayed in a single line, no matter how big you display things in a line. That means, if I want to copy and paste the same thing again and again, then I save it. And now if I refresh it, then all the things will be displayed one after the other. But if I need a little space to display these things, then I will have to create a new paragraph tag. Like if I remove half the information from here and then if I write a paragraph tag, then I can display all this information in it and now things will be on two different lines. So usually if this is a set of information and if this is my second set of information and if I want to display both of them in different paragraphs, then I will have to use two paragraph tags. That is why we use the paragraph tag to display connected or related information or content. So the first paragraph I have is related information in it, the second paragraph I have is also related information in it. If you want or not, in a single paragraph tag, I will write things in the next line like this and they will be displayed in the next line only in HTML. If you want, you can give any extra space or extra line here, HTML ignores all of them, HTML only recognizes tags. If things are written in the paragraph tag, then extra space or extra line HTML will not let you add, it will collect all the things and present them together. That is why to show multiple things, to show multiple related content, we have to use multiple tags. So let's save it once. Now if I want to show this last paragraph in bold, then I can use the bold tag here and I have cut the last paragraph, the last line, I have cut this whole line and pasted it inside the bold tag. So here this is my normal paragraph, this is my normal paragraph and in the second paragraph I have written the whole line in bold. Now if I refresh it, then this is my first paragraph printed, this is my second paragraph printed and the last line here is represented in bold. When we write another tag in one tag, then this phenomenon is called nesting in the language of programming. Nesting and these tags of mine, we will call them nested tags. So nesting means when something else comes inside one thing. So inside one tag, like there is a nest, that is, there is a nest of a bird, so inside it there are small children of the bird. Similarly, we can imagine that there is a big tag of the paragraph, inside it I have added another tag, that is, I have added a small bold tag inside it, added the tag of the image or added some other tag, then it will become the phenomenon of my nesting. So we will call them our nested tags."
+}

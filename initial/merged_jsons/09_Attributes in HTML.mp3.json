@@ -1,0 +1,75 @@
+{
+    "chunks": [
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 0.0,
+            "end": 22.32,
+            "text": " Next we will talk about HTML attributes.  Till now we have seen that normally there is any HTML tag which we can write in our HTML.  We can write h1 tag or paragraph tag.  But sometimes we are writing some other value or text with the name of the tag.  We call that text as our attribute."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 22.32,
+            "end": 41.44,
+            "text": " Attributes are used to add more information to the tag.  For example, I have written a normal tag.  Till now we have written a tag of ordered list.  But if I want to add extra information to it.  For example, if I want to change the type of the list and add the information of its type."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 41.44,
+            "end": 62.56,
+            "text": " So we add this extra information in the form of attributes.  So type is equal to a was an attribute in the ordered list.  Or in HTML tag, when we write language is equal to en, then this is also an attribute.  What does attribute mean?  Attribute is giving extra information."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 62.56,
+            "end": 80.56,
+            "text": " So the attribute in the HTML tag is telling me which language is being used in HTML.  My English language is being used in HTML.  Which is the extra information given.  Here the extra information is given that which type I have to use for the ordered list.  I have to use a, b, c, d type for my ordered list."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 81.18,
+            "end": 96.18,
+            "text": " So if we see our normal boilerplate code.  So in this, we write language is equal to English with HTML.  So this is my attribute.  In the meta tag, my character set is written as char set is equal to utf-8.  This is also an attribute of mine."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 96.18,
+            "end": 106.18,
+            "text": " Here the name is equal to viewport.  Content is equal to width scale.  Content is equal to ieh.  Or in this way, whatever value is equal to something.  What is this?"
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 106.18,
+            "end": 119.80000000000001,
+            "text": " This is basically a is equal to something.  In double quotes, a is equal to b.  In double quotes or in single quotes,  if there is any value that can be written.  So in that, a value is coming to the left."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 119.80000000000001,
+            "end": 132.8,
+            "text": " b value is coming to the right in quotes.  This pair is a combination of two words.  Now in this, we call a our attribute.  Here language is my attribute whose value is English.  Here type is my attribute whose value is a."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 132.8,
+            "end": 147.42000000000002,
+            "text": " So attributes have a value change.  Here char set is my attribute whose value is this.  We can write it in double quotes or single quotes.  If we write this type in single quotes,  save it and refresh it."
+        },
+        {
+            "number": "09",
+            "title": "Attributes in HTML",
+            "start": 147.42000000000002,
+            "end": 153.42000000000002,
+            "text": " Then my type will remain the same.  Because double quotes and single quotes  are interpreted in a similar way in HTML."
+        }
+    ],
+    "text": " Next we will talk about HTML attributes. Till now we have seen that normally there is any HTML tag which we can write in our HTML. We can write h1 tag or paragraph tag. But sometimes we are writing some other value or text with the name of the tag. We call that text as our attribute. Attributes are used to add more information to the tag. For example, I have written a normal tag. Till now we have written a tag of ordered list. But if I want to add extra information to it. For example, if I want to change the type of the list and add the information of its type. So we add this extra information in the form of attributes. So type is equal to a was an attribute in the ordered list. Or in HTML tag, when we write language is equal to en, then this is also an attribute. What does attribute mean? Attribute is giving extra information. So the attribute in the HTML tag is telling me which language is being used in HTML. My English language is being used in HTML. Which is the extra information given. Here the extra information is given that which type I have to use for the ordered list. I have to use a, b, c, d type for my ordered list. So if we see our normal boilerplate code. So in this, we write language is equal to English with HTML. So this is my attribute. In the meta tag, my character set is written as char set is equal to utf-8. This is also an attribute of mine. Here the name is equal to viewport. Content is equal to width scale. Content is equal to ieh. Or in this way, whatever value is equal to something. What is this? This is basically a is equal to something. In double quotes, a is equal to b. In double quotes or in single quotes, if there is any value that can be written. So in that, a value is coming to the left. b value is coming to the right in quotes. This pair is a combination of two words. Now in this, we call a our attribute. Here language is my attribute whose value is English. Here type is my attribute whose value is a. So attributes have a value change. Here char set is my attribute whose value is this. We can write it in double quotes or single quotes. If we write this type in single quotes, save it and refresh it. Then my type will remain the same. Because double quotes and single quotes are interpreted in a similar way in HTML."
+}

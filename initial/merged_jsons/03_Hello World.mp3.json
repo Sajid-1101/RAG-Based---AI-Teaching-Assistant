@@ -1,0 +1,187 @@
+{
+    "chunks": [
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 0.0,
+            "end": 25.04,
+            "text": " Now we are going to start coding in HTML  Usually, if we learn a new programming language, we first write a program of Hello World in it.  So today we will also write a program of Hello World in HTML.  To write things in HTML, we will first have to create an HTML file.  So the visual studio code or any editor that you have downloaded, we are going to open it first."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 25.119999999999997,
+            "end": 47.36,
+            "text": " Now here I see a lot of things in recent, it may not be visible to you because I have been using visual studio code for a long time.  So these are my recent files, but if you have just installed it, then you will not get the recent option.  We will start with the option of a new file that is coming on VS Code.  First of all, we will click on the new file.  I am going to start with a text file."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 47.36,
+            "end": 71.2,
+            "text": " I have created a file, now its name is untitled, I am going to save it.  To save this file, I am going to give its name as Hello World.html  I saved it with the name of Hello World.html  Now this .html is called an extension.  Extension means the last added thing."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 71.2,
+            "end": 95.35999999999999,
+            "text": " If I make a file of HTML, then I will always have to end with .html at the end.  If I make a file of Java, then I have to end with .java at the end.  If I make a file of C++, then I have to end with .cpp.  If we make a file of JavaScript, then we will end with .js.  So this way, we can see the code in which language in the extension of a file."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 95.35999999999999,
+            "end": 112.0,
+            "text": " If it is a Python file, then we will end it with .py.  Here .html is our HTML file.  We could have named it anything.  We could have named it ABCD, we could have named it with our name, we could have named it our college.  Here I have named this file as Hello World.html"
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 112.0,
+            "end": 135.76,
+            "text": " And at the top of the VS Code, you can see that I have created this file in my users folder.  So I have the path of this file.  If you have a Windows system, then you can see the path of any HTML file on it.  I am going to create a paragraph tag.  To create a paragraph tag, I have written something like this."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 135.76,
+            "end": 152.8,
+            "text": " This is my opening tag and this is my closing tag.  Now I am going to write Hello World in the middle.  So this way, I have created a paragraph element.  In which this is my opening tag and then my content.  What I have written in the content is Hello World."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 152.8,
+            "end": 164.08,
+            "text": " And at the end, my closing tag has come.  I have saved it.  Now I have to see what will be the output of this.  I have made an HTML file.  So a web page should be created with the help of this HTML file."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 164.08,
+            "end": 176.72000000000003,
+            "text": " A website should be created.  A website is a very big thing.  It has a front end, a back end, databases, and many other things.  So here I am using the word website for your simplicity.  Because HTML does not make a website."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 176.72000000000003,
+            "end": 188.64000000000001,
+            "text": " HTML will create a web page for us.  Which is a small page of the entire website.  Now I have written the code here.  Now to run it, I will go where my file has been saved.  I am going to search for my folder."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 188.64000000000001,
+            "end": 201.92000000000002,
+            "text": " My folder has opened.  Now if I search for Hello World.html  I have got my file.  This file was created in this folder.  And as soon as I double click on this file."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 201.92000000000002,
+            "end": 211.92000000000002,
+            "text": " Or I will open click on it.  So this opens the whole website for me.  My VS code, that is, this code.  It created a website that looks like this.  It has created a web page that looks like this."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 211.92000000000002,
+            "end": 222.32,
+            "text": " And its path is also visible in the browser.  So this HTML file has been created by going to the user folder.  This HTML file has been created by going to the user folder.  This is its output.  So with the help of paragraph tag."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 222.32,
+            "end": 232.32,
+            "text": " I was able to print Hello World on my web page.  Now the same thing.  That is, I wrote this paragraph tag.  By copying this, I can write my name on the second line.  I can write my name here."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 232.32,
+            "end": 242.32,
+            "text": " And now if I save it.  Here I have saved it in HTML.  To save, I have pressed command s.  You can control.  And now I have saved it in HTML."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 242.72,
+            "end": 252.72,
+            "text": " I can save it here.  And when I refreshed it.  So one paragraph printed Hello World.  And the next paragraph printed Shraddha Khapra on the next line.  And the next paragraph printed Shraddha Khapra on the next line."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 252.72,
+            "end": 262.71999999999997,
+            "text": " Similarly, I can create one more paragraph element.  Similarly, I can create one more paragraph element.  I'm going to print my college in it.  Now I'm going to save it here.  And to refresh it again."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 262.71999999999997,
+            "end": 276.92,
+            "text": " With the help of the third paragraph tag.  My college was printed in the third line.  So what we learned about paragraph tags.  That paragraph tags are not normal.  If you learn one thing that if anything is printed with a paragraph tag, it is visible on our screen."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 276.92,
+            "end": 305.02000000000004,
+            "text": " Along with that, if we use multiple paragraph tags, then every paragraph tag starts with a new line.  It is not that after Hello World, Shraddha Kapra was printed in this line.  Shraddha Kapra was printed on the next line, and our college was also printed on the next line.  If I had to print all these things on the same line, then I would not have used different paragraph tags.  Then I would have cut all this information and printed it in the same paragraph tag."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 305.02000000000004,
+            "end": 321.72,
+            "text": " Let's do this too.  Cut and paste here.  If it was a single paragraph tag, then I would have seen my information like this.  So in this way, we create an HTML file and start doing basic coding in it.  Here I will ask you a small question."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 321.72,
+            "end": 355.22,
+            "text": " What you have to do is print your name on your browser with the help of a paragraph tag.  So once you have to write your name in the paragraph tag, then you have to see how you can display your name on your web page.  Now one more thing we have to learn about HTML code is that all this web page that I have formed, this web page will only run on my computer.  Websites are online, if you want to open Amazon.com or Google.com, you can open it from your computer, I can open it from my computer.  But this web page that I have created with specific HTML can only be opened on my computer."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 355.22,
+            "end": 379.72,
+            "text": " Because its HTML file is only present in my computer.  If we want to put things on the internet and want to make our web page in such a way that anyone can access it, anyone can open it.  So in that we will have to learn about domains, we will have to learn about hosting, which are some advanced things that we will be learning later.  So for now, all the web pages, websites, all the things we are creating, all of them are to be opened in our browser.  Because their files are in our computer."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 379.72,
+            "end": 405.22,
+            "text": " Now if I want, I can right click on this page and inspect it.  As soon as I inspect, what will you see?  You will see the whole HTML code.  In HTML code, you will see a paragraph tag and all the things are written in it as we have written in our VS Code file.  But here you will see more different tags, HTML will be seen separately, head tag will be seen, body tag will be seen."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 405.22,
+            "end": 427.72,
+            "text": " We are going to read about all these tags now, so don't be scared to see it.  But the major work that is happening to us is that this paragraph tag is doing, in which a lot of information is written.  Now if I agree with this, I have written a lot of words.  Now I want to show some of these words in bold, so for that I can use my bold tag.  To write bold tag, I can write tags inside the tags."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 427.72,
+            "end": 450.22,
+            "text": " Like in this paragraph tag, I have to make my college bold, so I wrote B.  This is the opening tag of B and I am going to write its closing tag after my college.  So in this way, outside my paragraph tag and inside it, I have a bold tag,  with the help of which the material inside the bold tag, that is our college, will be displayed in bold.  It will be displayed in the paragraph, but it will also be bold."
+        },
+        {
+            "number": "03",
+            "title": "Hello World",
+            "start": 450.22,
+            "end": 466.22,
+            "text": " Let's save and refresh it once.  So all the other text has been displayed normally, but our college has been displayed in bold.  So in this way, whatever you want to display in bold, you can get it highlighted,  we can get it displayed in bold with the help of B tag."
+        }
+    ],
+    "text": " Now we are going to start coding in HTML Usually, if we learn a new programming language, we first write a program of Hello World in it. So today we will also write a program of Hello World in HTML. To write things in HTML, we will first have to create an HTML file. So the visual studio code or any editor that you have downloaded, we are going to open it first. Now here I see a lot of things in recent, it may not be visible to you because I have been using visual studio code for a long time. So these are my recent files, but if you have just installed it, then you will not get the recent option. We will start with the option of a new file that is coming on VS Code. First of all, we will click on the new file. I am going to start with a text file. I have created a file, now its name is untitled, I am going to save it. To save this file, I am going to give its name as Hello World.html I saved it with the name of Hello World.html Now this .html is called an extension. Extension means the last added thing. If I make a file of HTML, then I will always have to end with .html at the end. If I make a file of Java, then I have to end with .java at the end. If I make a file of C++, then I have to end with .cpp. If we make a file of JavaScript, then we will end with .js. So this way, we can see the code in which language in the extension of a file. If it is a Python file, then we will end it with .py. Here .html is our HTML file. We could have named it anything. We could have named it ABCD, we could have named it with our name, we could have named it our college. Here I have named this file as Hello World.html And at the top of the VS Code, you can see that I have created this file in my users folder. So I have the path of this file. If you have a Windows system, then you can see the path of any HTML file on it. I am going to create a paragraph tag. To create a paragraph tag, I have written something like this. This is my opening tag and this is my closing tag. Now I am going to write Hello World in the middle. So this way, I have created a paragraph element. In which this is my opening tag and then my content. What I have written in the content is Hello World. And at the end, my closing tag has come. I have saved it. Now I have to see what will be the output of this. I have made an HTML file. So a web page should be created with the help of this HTML file. A website should be created. A website is a very big thing. It has a front end, a back end, databases, and many other things. So here I am using the word website for your simplicity. Because HTML does not make a website. HTML will create a web page for us. Which is a small page of the entire website. Now I have written the code here. Now to run it, I will go where my file has been saved. I am going to search for my folder. My folder has opened. Now if I search for Hello World.html I have got my file. This file was created in this folder. And as soon as I double click on this file. Or I will open click on it. So this opens the whole website for me. My VS code, that is, this code. It created a website that looks like this. It has created a web page that looks like this. And its path is also visible in the browser. So this HTML file has been created by going to the user folder. This HTML file has been created by going to the user folder. This is its output. So with the help of paragraph tag. I was able to print Hello World on my web page. Now the same thing. That is, I wrote this paragraph tag. By copying this, I can write my name on the second line. I can write my name here. And now if I save it. Here I have saved it in HTML. To save, I have pressed command s. You can control. And now I have saved it in HTML. I can save it here. And when I refreshed it. So one paragraph printed Hello World. And the next paragraph printed Shraddha Khapra on the next line. And the next paragraph printed Shraddha Khapra on the next line. Similarly, I can create one more paragraph element. Similarly, I can create one more paragraph element. I'm going to print my college in it. Now I'm going to save it here. And to refresh it again. With the help of the third paragraph tag. My college was printed in the third line. So what we learned about paragraph tags. That paragraph tags are not normal. If you learn one thing that if anything is printed with a paragraph tag, it is visible on our screen. Along with that, if we use multiple paragraph tags, then every paragraph tag starts with a new line. It is not that after Hello World, Shraddha Kapra was printed in this line. Shraddha Kapra was printed on the next line, and our college was also printed on the next line. If I had to print all these things on the same line, then I would not have used different paragraph tags. Then I would have cut all this information and printed it in the same paragraph tag. Let's do this too. Cut and paste here. If it was a single paragraph tag, then I would have seen my information like this. So in this way, we create an HTML file and start doing basic coding in it. Here I will ask you a small question. What you have to do is print your name on your browser with the help of a paragraph tag. So once you have to write your name in the paragraph tag, then you have to see how you can display your name on your web page. Now one more thing we have to learn about HTML code is that all this web page that I have formed, this web page will only run on my computer. Websites are online, if you want to open Amazon.com or Google.com, you can open it from your computer, I can open it from my computer. But this web page that I have created with specific HTML can only be opened on my computer. Because its HTML file is only present in my computer. If we want to put things on the internet and want to make our web page in such a way that anyone can access it, anyone can open it. So in that we will have to learn about domains, we will have to learn about hosting, which are some advanced things that we will be learning later. So for now, all the web pages, websites, all the things we are creating, all of them are to be opened in our browser. Because their files are in our computer. Now if I want, I can right click on this page and inspect it. As soon as I inspect, what will you see? You will see the whole HTML code. In HTML code, you will see a paragraph tag and all the things are written in it as we have written in our VS Code file. But here you will see more different tags, HTML will be seen separately, head tag will be seen, body tag will be seen. We are going to read about all these tags now, so don't be scared to see it. But the major work that is happening to us is that this paragraph tag is doing, in which a lot of information is written. Now if I agree with this, I have written a lot of words. Now I want to show some of these words in bold, so for that I can use my bold tag. To write bold tag, I can write tags inside the tags. Like in this paragraph tag, I have to make my college bold, so I wrote B. This is the opening tag of B and I am going to write its closing tag after my college. So in this way, outside my paragraph tag and inside it, I have a bold tag, with the help of which the material inside the bold tag, that is our college, will be displayed in bold. It will be displayed in the paragraph, but it will also be bold. Let's save and refresh it once. So all the other text has been displayed normally, but our college has been displayed in bold. So in this way, whatever you want to display in bold, you can get it highlighted, we can get it displayed in bold with the help of B tag."
+}

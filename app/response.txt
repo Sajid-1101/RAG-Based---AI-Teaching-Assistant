@@ -1,1 +1,3 @@
-Yes, there is a practice session inside this course! You can find it in **Video 06** titled **"Practice Qs"**. This video is dedicated to practice questions.
+Video number: 06
+Video title: Practice Qs
+The practice questions involve recreating a given image using HTML tags, specifically identifying elements like a heading at the top of the image.

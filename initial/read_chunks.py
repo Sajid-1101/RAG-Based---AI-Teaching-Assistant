@@ -13,12 +13,12 @@ def create_embedding(text_list):
     return embedding
     # return 2d list : [[q1],[q2],....]
 
-jsons = os.listdir("jsons")
+jsons = os.listdir("merged_jsons")
 my_dict = []
 chunk_id = 0
 
 for json_file in jsons:
-    with open(f"jsons/{json_file}") as f:
+    with open(f"merged_jsons/{json_file}") as f:
         content = json.load(f)
     print(f"creating embedding for {json_file}")
     embeddings = create_embedding([c['text'] for c in content['chunks']])

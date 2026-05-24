@@ -1,0 +1,299 @@
+{
+    "chunks": [
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 0.0,
+            "end": 27.2,
+            "text": " Next thing we are going to read in HTML is the boilerplate code of HTML  In HTML or any other programming language, boilerplate code means the code which we are going to write before writing HTML code  That means if we have to make any file in which we will write any HTML code  So before that, there is a part in HTML which we have to write first  Every language has its own boilerplate code"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 27.2,
+            "end": 48.0,
+            "text": " If you want to write Java, then Java has a boilerplate code  If you want to write C++, then C++ also has a boilerplate code  So it is a basic template which we have to write always  So this basic template or standard format we can call it or we can call it as skeleton of writing HTML code  That means there is a basic structure of our HTML code which we have to prepare first"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 48.0,
+            "end": 72.08,
+            "text": " That means we have to open the file and write simple tags like we have written till now  We don't have to write tags like we have written paragraph tag in the first line or any other tag  We don't have to approach like that, we have to write everything systematically in HTML  We write this line at the top of the HTML file  In this line, we write something like exclamation doc type HTML"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 72.08,
+            "end": 95.03999999999999,
+            "text": " The basic meaning of this line is that we are using HTML5  That means it tells the whole document that which version of HTML is being used, version 5 is being used  Like we have versions in games or we update apps like WhatsApp, similarly HTML is also updated  And the updated version of HTML which we use is our version 5  Which we represent through this line"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 95.03999999999999,
+            "end": 115.84,
+            "text": " After that, the next tag which we write is my HTML tag  HTML tag makes the whole code written inside itself  That means all the remaining things which we are going to write, all of them will be written inside the HTML tag  HTML tag can be called as our root tag  Now where does this word root come from?"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 115.84,
+            "end": 137.52,
+            "text": " Root means the first part of any code  So whenever we talk about HTML code, we have written this tag at the top which we call HTML tag  Inside HTML tag, we have written this tag which we call head tag  So inside HTML, a hierarchical structure is formed like this  Inside head tag, I have written this tag which we call title tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 137.60000000000002,
+            "end": 154.96,
+            "text": " So like this, we can arrange our tags level wise  And this arrangement is called hierarchical arrangement  Hierarchical means in which levels are formed  Like we have our grandfathers at our home, under them, our father's generation comes  Under father's generation, our generation comes"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 154.96,
+            "end": 179.6,
+            "text": " So like this, a hierarchy is formed in which levels are formed when you make a diagram  Similarly, levels are formed inside our HTML tags which shows which tag comes above  Which tag comes below or inside  So in this hierarchical arrangement, the one which is at the top level, we call it as root  And here, our HTML tag will be the root"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 179.6,
+            "end": 198.0,
+            "text": " Because this is the first valid tag with which we start our HTML code  So whenever we are writing our HTML code, we will first write the doc type  Then we will be writing the HTML tag  And then all of the code will be going inside our HTML tag  Now inside the HTML tag, the first tag which we write is our head tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 198.0,
+            "end": 221.52,
+            "text": " We are writing this head tag  And inside the head tag, all of our meta information or extra information goes  Means whatever part I have, like if I want to link CSS with HTML  Means if I want to tell the styling of any website, then that styling will be told inside the head tag  If I want to link JavaScript with HTML, then we will be linking that also inside the head tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 221.60000000000002,
+            "end": 243.68,
+            "text": " Means the linking of other files or any extra information which we don't want to display on the browser or web page  But extra information should be there  We write that information inside our head tag  So we can say this head tag in a way that we store our metadata inside it  Metadata means data about data"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 243.68,
+            "end": 262.88,
+            "text": " Means whatever is our HTML code, we want to store extra information about it  Like where to get the styling and functionality  And inside this head tag, there is one tag which we always define for our web pages  That is my title tag  Title means that this is the title of our web page"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 262.88,
+            "end": 279.03999999999996,
+            "text": " You can understand the title in a way that if we want to search the name of any website on Google  Let's say I searched on Google, Amazon.com  So what will Google do?  Google will search the search query on the basis of this title  That's why the title name should be very relevant"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 279.03999999999996,
+            "end": 299.84,
+            "text": " Means whatever you want to display on your page, you have to give that name to your title  And the title name is never displayed on the website  Means if you wrote my first page, then this title will not be displayed on your main web page  It is displayed on the top of the website, on the tab  Let's see an example of this"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 299.84,
+            "end": 319.20000000000005,
+            "text": " Let's say we opened the website netflix.com  Now when the website will open like this on netflix.com  Then it is written on the top that there is an icon of Netflix  Netflix India, watch TV shows online, watch movies online  So this is the title of my main web page on Netflix"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 319.20000000000005,
+            "end": 337.92,
+            "text": " So this way the title shows us what is going to happen on the web page  That's why the title name should be kept for our projects or websites  Next thing we will talk about is my body tag  Now if we want, we can divide html into two parts  One is our head tag and the other is our body tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 337.92,
+            "end": 358.08000000000004,
+            "text": " All the things that come under the head tag that are not generally visible on the website  And in these things, our metadata is stored  Let's make it a metadata  And those things are visible on our body tag that are actually displayed on our web page  Like if I want to write a paragraph tag, then it will come under the body tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 358.08000000000004,
+            "end": 379.28000000000003,
+            "text": " If I want to write a heading tag, then it will also come under the body tag  Or if there is any other tag, like we will learn to make many tags  We will learn to make lists, forms, tables, buttons, images, etc.  So all those tags are written under my body tag  So like we have written this paragraph tag under the body tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 379.28000000000003,
+            "end": 403.6,
+            "text": " So this is a general layout that we always follow whenever we want to write our html code  Now what we do is, we are going to generate this html boilerplate code in our VS code  So we have made an empty file, classroom.html  And there is a shortcut on our VS code to generate this boilerplate code  So what we can do is, we can simply press the exclamation mark"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 403.6,
+            "end": 427.84000000000003,
+            "text": " If you type this exclamation mark on the keyboard, then you will see some options  These are called emits  Emits means that this is a short form  If you have written an exclamation mark in the html file in VS code  Then it means that you are telling VS code that whether you want to generate boilerplate code or not"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 427.84000000000003,
+            "end": 448.79999999999995,
+            "text": " And in fact, html will show you that emits abbreviation  That you are trying to generate some code of this type  And now you can simply click on this blue line  Or you can press enter or return on your mac  Or you can press any of the option on your mac"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 448.79999999999995,
+            "end": 468.47999999999996,
+            "text": " Or the easiest option is to click on this blue line  So what happens by clicking, my boilerplate code, html, VS code automatically generated  And how did it generate? It was generated with the help of emits  What are emits? Emits are short forms  In VS code, there are pre-installed emits or if you are using some other code editor"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 468.47999999999996,
+            "end": 487.84,
+            "text": " Then there are pre-installed emits on many code editors  If emits are not working on your VS code or you are using some other code editor  And it is not working on it, then there is no problem  You can type this whole code by yourself  So there is no need to worry, even if emits are not working, you can still run the code of html"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 487.84,
+            "end": 505.68,
+            "text": " Now emits automatically generated all this code  How? I wrote an exclamation mark in a short form, and my whole code was generated  So emits are very useful for us and we will go ahead and learn more about emits  For now, let's focus on our boilerplate code  The first line tells me that I am using html5"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 505.68,
+            "end": 522.32,
+            "text": " In the second line, I see something like this in html  Language lang is equal to en  The basic meaning of this line is that the extra line in the html tag  It basically means that which language we want to show on our page  We want to use the English language"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 522.32,
+            "end": 537.76,
+            "text": " Now there are multiple languages that you can use in html  If you want, you can use French, German  But primarily we use English  Then there is my head tag  You can see 2-3 extra tags in it that give me meta information"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 537.76,
+            "end": 554.56,
+            "text": " Meta information means the information that is about the data  Such information that is not visible but is stored extra  So here is some information of the same type  Here it is told to me which character set we are using  Character set means the name of the English character set is written here"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 554.8,
+            "end": 567.76,
+            "text": " And there is more extra information about screen sizes  Which is basically my viewport  But these are extra things, so there is no need to pay much attention to it  This is my title  After that, my head tag ends and then my body tag comes"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 567.76,
+            "end": 580.2399999999999,
+            "text": " So in this way, we can do the basic layout of our html  And in the body tag, we can write a paragraph tag  Let's call it  Hello world  We have written hello world in the paragraph tag"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 580.2399999999999,
+            "end": 591.36,
+            "text": " And we are going to write in the title  My boilerplate code  Save  Now if we refresh it in the browser  Then some things like this will appear"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 591.36,
+            "end": 608.08,
+            "text": " Means the hello world that I had written in the paragraph tag  I can see it on my screen, that is, on the window, on the website  And my boilerplate code is the line that I had written in the title  I can see it on the top of the browser, on the tab  So this difference is in the title and body tag content"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 608.08,
+            "end": 619.6,
+            "text": " Now whenever we write our html code  We can leave it in this similar layout  But there are some things that we can do  Which makes our code more readable  Like one thing we can do"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 619.6,
+            "end": 630.64,
+            "text": " As soon as there is another tag inside the html tag  Or there is another tag inside any tag  So we will give it a tab space  That is, I will go here and give it a little space  That is, I pressed tab on my keyboard"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 630.64,
+            "end": 642.8,
+            "text": " And I will also give these four a little tab space  I gave it a tab space  And what will happen in this way  The layout will look very beautiful  Let's save it"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 642.8,
+            "end": 652.8,
+            "text": " So I am getting to know that if there is space here  Then my head tag comes inside my html tag  If there is space between meta and head  Then my meta tag is coming inside my head tag  And in the same way"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 652.8,
+            "end": 662.8,
+            "text": " If there is space in the paragraph and body tag  Then the paragraph tag is coming inside the body tag  So the extra space that we give to the front  This is called indentation  I will tell you by writing"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 662.8,
+            "end": 672.9599999999999,
+            "text": " It is a very interesting word  This is called indentation  Indentation  The basic meaning of indentation is proper spacing  And indentation"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 672.9599999999999,
+            "end": 682.9599999999999,
+            "text": " Is a sign of a good programmer  A professional programmer  That he gives space in his code in a good way  And the code becomes very readable  So as I give spacing"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 682.9599999999999,
+            "end": 692.9599999999999,
+            "text": " In the coming chapters  We have to follow it in a way  And in the same way our good habit will build  And in fact indentation is not only in html code  Whether we read javascript"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 692.9599999999999,
+            "end": 703.12,
+            "text": " Whether we read css  It is important in all  If you have not given indentation in html  Then it will not make any difference to html  Our code will run as it is"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 703.12,
+            "end": 713.12,
+            "text": " But a language like python  If you have given indentation in it  Then your code does not work  So indentation is very important there  Here"
+        },
+        {
+            "number": "07",
+            "title": "Boilerplate Code",
+            "start": 713.12,
+            "end": 721.12,
+            "text": " It is not at all important to run the code  But yes  It is a sign of an experienced and professional programmer  So we have to follow it"
+        }
+    ],
+    "text": " Next thing we are going to read in HTML is the boilerplate code of HTML In HTML or any other programming language, boilerplate code means the code which we are going to write before writing HTML code That means if we have to make any file in which we will write any HTML code So before that, there is a part in HTML which we have to write first Every language has its own boilerplate code If you want to write Java, then Java has a boilerplate code If you want to write C++, then C++ also has a boilerplate code So it is a basic template which we have to write always So this basic template or standard format we can call it or we can call it as skeleton of writing HTML code That means there is a basic structure of our HTML code which we have to prepare first That means we have to open the file and write simple tags like we have written till now We don't have to write tags like we have written paragraph tag in the first line or any other tag We don't have to approach like that, we have to write everything systematically in HTML We write this line at the top of the HTML file In this line, we write something like exclamation doc type HTML The basic meaning of this line is that we are using HTML5 That means it tells the whole document that which version of HTML is being used, version 5 is being used Like we have versions in games or we update apps like WhatsApp, similarly HTML is also updated And the updated version of HTML which we use is our version 5 Which we represent through this line After that, the next tag which we write is my HTML tag HTML tag makes the whole code written inside itself That means all the remaining things which we are going to write, all of them will be written inside the HTML tag HTML tag can be called as our root tag Now where does this word root come from? Root means the first part of any code So whenever we talk about HTML code, we have written this tag at the top which we call HTML tag Inside HTML tag, we have written this tag which we call head tag So inside HTML, a hierarchical structure is formed like this Inside head tag, I have written this tag which we call title tag So like this, we can arrange our tags level wise And this arrangement is called hierarchical arrangement Hierarchical means in which levels are formed Like we have our grandfathers at our home, under them, our father's generation comes Under father's generation, our generation comes So like this, a hierarchy is formed in which levels are formed when you make a diagram Similarly, levels are formed inside our HTML tags which shows which tag comes above Which tag comes below or inside So in this hierarchical arrangement, the one which is at the top level, we call it as root And here, our HTML tag will be the root Because this is the first valid tag with which we start our HTML code So whenever we are writing our HTML code, we will first write the doc type Then we will be writing the HTML tag And then all of the code will be going inside our HTML tag Now inside the HTML tag, the first tag which we write is our head tag We are writing this head tag And inside the head tag, all of our meta information or extra information goes Means whatever part I have, like if I want to link CSS with HTML Means if I want to tell the styling of any website, then that styling will be told inside the head tag If I want to link JavaScript with HTML, then we will be linking that also inside the head tag Means the linking of other files or any extra information which we don't want to display on the browser or web page But extra information should be there We write that information inside our head tag So we can say this head tag in a way that we store our metadata inside it Metadata means data about data Means whatever is our HTML code, we want to store extra information about it Like where to get the styling and functionality And inside this head tag, there is one tag which we always define for our web pages That is my title tag Title means that this is the title of our web page You can understand the title in a way that if we want to search the name of any website on Google Let's say I searched on Google, Amazon.com So what will Google do? Google will search the search query on the basis of this title That's why the title name should be very relevant Means whatever you want to display on your page, you have to give that name to your title And the title name is never displayed on the website Means if you wrote my first page, then this title will not be displayed on your main web page It is displayed on the top of the website, on the tab Let's see an example of this Let's say we opened the website netflix.com Now when the website will open like this on netflix.com Then it is written on the top that there is an icon of Netflix Netflix India, watch TV shows online, watch movies online So this is the title of my main web page on Netflix So this way the title shows us what is going to happen on the web page That's why the title name should be kept for our projects or websites Next thing we will talk about is my body tag Now if we want, we can divide html into two parts One is our head tag and the other is our body tag All the things that come under the head tag that are not generally visible on the website And in these things, our metadata is stored Let's make it a metadata And those things are visible on our body tag that are actually displayed on our web page Like if I want to write a paragraph tag, then it will come under the body tag If I want to write a heading tag, then it will also come under the body tag Or if there is any other tag, like we will learn to make many tags We will learn to make lists, forms, tables, buttons, images, etc. So all those tags are written under my body tag So like we have written this paragraph tag under the body tag So this is a general layout that we always follow whenever we want to write our html code Now what we do is, we are going to generate this html boilerplate code in our VS code So we have made an empty file, classroom.html And there is a shortcut on our VS code to generate this boilerplate code So what we can do is, we can simply press the exclamation mark If you type this exclamation mark on the keyboard, then you will see some options These are called emits Emits means that this is a short form If you have written an exclamation mark in the html file in VS code Then it means that you are telling VS code that whether you want to generate boilerplate code or not And in fact, html will show you that emits abbreviation That you are trying to generate some code of this type And now you can simply click on this blue line Or you can press enter or return on your mac Or you can press any of the option on your mac Or the easiest option is to click on this blue line So what happens by clicking, my boilerplate code, html, VS code automatically generated And how did it generate? It was generated with the help of emits What are emits? Emits are short forms In VS code, there are pre-installed emits or if you are using some other code editor Then there are pre-installed emits on many code editors If emits are not working on your VS code or you are using some other code editor And it is not working on it, then there is no problem You can type this whole code by yourself So there is no need to worry, even if emits are not working, you can still run the code of html Now emits automatically generated all this code How? I wrote an exclamation mark in a short form, and my whole code was generated So emits are very useful for us and we will go ahead and learn more about emits For now, let's focus on our boilerplate code The first line tells me that I am using html5 In the second line, I see something like this in html Language lang is equal to en The basic meaning of this line is that the extra line in the html tag It basically means that which language we want to show on our page We want to use the English language Now there are multiple languages that you can use in html If you want, you can use French, German But primarily we use English Then there is my head tag You can see 2-3 extra tags in it that give me meta information Meta information means the information that is about the data Such information that is not visible but is stored extra So here is some information of the same type Here it is told to me which character set we are using Character set means the name of the English character set is written here And there is more extra information about screen sizes Which is basically my viewport But these are extra things, so there is no need to pay much attention to it This is my title After that, my head tag ends and then my body tag comes So in this way, we can do the basic layout of our html And in the body tag, we can write a paragraph tag Let's call it Hello world We have written hello world in the paragraph tag And we are going to write in the title My boilerplate code Save Now if we refresh it in the browser Then some things like this will appear Means the hello world that I had written in the paragraph tag I can see it on my screen, that is, on the window, on the website And my boilerplate code is the line that I had written in the title I can see it on the top of the browser, on the tab So this difference is in the title and body tag content Now whenever we write our html code We can leave it in this similar layout But there are some things that we can do Which makes our code more readable Like one thing we can do As soon as there is another tag inside the html tag Or there is another tag inside any tag So we will give it a tab space That is, I will go here and give it a little space That is, I pressed tab on my keyboard And I will also give these four a little tab space I gave it a tab space And what will happen in this way The layout will look very beautiful Let's save it So I am getting to know that if there is space here Then my head tag comes inside my html tag If there is space between meta and head Then my meta tag is coming inside my head tag And in the same way If there is space in the paragraph and body tag Then the paragraph tag is coming inside the body tag So the extra space that we give to the front This is called indentation I will tell you by writing It is a very interesting word This is called indentation Indentation The basic meaning of indentation is proper spacing And indentation Is a sign of a good programmer A professional programmer That he gives space in his code in a good way And the code becomes very readable So as I give spacing In the coming chapters We have to follow it in a way And in the same way our good habit will build And in fact indentation is not only in html code Whether we read javascript Whether we read css It is important in all If you have not given indentation in html Then it will not make any difference to html Our code will run as it is But a language like python If you have given indentation in it Then your code does not work So indentation is very important there Here It is not at all important to run the code But yes It is a sign of an experienced and professional programmer So we have to follow it"
+}

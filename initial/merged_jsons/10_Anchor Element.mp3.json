@@ -1,0 +1,278 @@
+{
+    "chunks": [
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 0.0,
+            "end": 21.32,
+            "text": " The next element we are going to study in HTML is my anchor element.  Anchor element is used to add links to our page.  That is, we go to many websites where we can click on any text and go to another page.  Like if I take a normal Wikipedia example,  let's suppose we go to the Avengers page of Wikipedia,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 21.32,
+            "end": 42.44,
+            "text": " so if we click on talk here, then what will happen is we will go to another page.  Or if we click on this based on, then what will happen is we will go to another section or page.  So the work of this method,  means we go to another place by clicking on something,  we use it in the form of anchor tag."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 42.44,
+            "end": 56.76,
+            "text": " What do we call this? We call it links.  Or in HTML language, it is called anchor tag.  So if we want to add links on our page, then we use anchor tags.  Anchor tag means our basic A tag.  If we simply write A,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 57.76,
+            "end": 72.75999999999999,
+            "text": " then it is called my anchor tag.  But just writing anchor tag does not do anything.  We have to link with anchor tag that where do you want to go by clicking on it.  Like if we want to go to google.com,  so to link, the opening tag of anchor tag,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 72.75999999999999,
+            "end": 87.18,
+            "text": " this is my opening tag, this is my closing tag,  in the opening tag, we have our href, this is my attribute,  what do we call this? We call this attribute.  So the full form of href is,  we have hypertext reference."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 87.18,
+            "end": 101.18,
+            "text": " Now this sounds heavy, but its basic meaning is link.  Which link do you want to go by clicking on it.  So the value of hyperlink reference,  we will set it as google.com link.  So we write the whole link, not just google.com,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 101.18,
+            "end": 114.80000000000001,
+            "text": " we have to write the link of the whole website.  And then we can write any text in the anchor tag,  by clicking on the text, we will reach that link.  Now all these things that we have said,  we will do them slowly."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 114.80000000000001,
+            "end": 130.8,
+            "text": " What we will do is, we will remove the old unordered list code,  save and refresh.  Here we will do tags in html, refresh.  And now what we will do is, we will create an anchor tag.  To create an anchor tag, we will simply write a."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 130.8,
+            "end": 141.92000000000002,
+            "text": " We will save and refresh.  So simply writing a will not do anything on the screen.  But when we will write some text inside this anchor tag,  then that text will become clickable.  Now if I write google, save and refresh."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 141.92000000000002,
+            "end": 151.92000000000002,
+            "text": " So now what happens is,  only the normal google is displayed here.  But if we add google link,  we will add the link in the opening tag,  we will write href,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 151.92000000000002,
+            "end": 161.92000000000002,
+            "text": " hyper reference is equal to double quotes,  this is my attribute.  And what we will write inside the attribute,  let's suppose we wrote google.com,  as soon as we click on google,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 161.92000000000002,
+            "end": 172.04,
+            "text": " we reach google.com, save and refresh.  What is google.com? It is a link.  So what will happen is,  it will start giving us a message.  And as soon as we click on it,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 172.04,
+            "end": 182.04,
+            "text": " we will reach this page.  Here it is saying,  your file could not be accessed.  It is saying, maybe your file has been moved,  edited or deleted."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 182.04,
+            "end": 192.04,
+            "text": " Error is showing file not found.  So what did it do?  HTML understood that in href,  the google.com you have written,  you are trying to say that"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 192.04,
+            "end": 202.16,
+            "text": " google.com is a file of your computer,  which is now trying to find the browser.  But google.com is not a file,  google.com is a complete website.  But on that website,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 202.16,
+            "end": 212.16,
+            "text": " as soon as you type google.com,  the link of that website is not only google.com,  as soon as we click on it,  and expand it,  what happens after clicking?"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 212.16,
+            "end": 222.16,
+            "text": " As I clicked here,  we will click again,  by clicking twice, it will expand.  So we don't just search on google.com,  whenever we write google.com in our browser,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 222.16,
+            "end": 232.28,
+            "text": " we type https,  colon, double slash,  www.google.com,  this is the complete link of google.  And we have to copy and paste this link."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 232.28,
+            "end": 242.28,
+            "text": " What is https,  what is www,  these are the full forms,  which we have learnt in our childhood.  Https is our protocol,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 242.28,
+            "end": 252.28,
+            "text": " which we will learn later.  WWW means World Wide Web.  So google.com will be searched on the whole web.  Basically, if we want to link with google.com,  we have to write the complete link."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 252.4,
+            "end": 262.4,
+            "text": " We will click on save,  and refresh it.  Now if we refresh,  there will be no change in the look.  But as soon as we click on it,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 262.4,
+            "end": 272.4,
+            "text": " we will reach google.com.  We can back it.  In the same way,  we can create another anchor tag.  We will write netflix in this anchor tag."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 272.4,
+            "end": 282.52,
+            "text": " And we will link it with netflix.com.  I have written href,  and we will take the complete link of netflix.com.  netflix.com  We will copy and paste it."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 284.52,
+            "end": 294.52,
+            "text": " So netflix.com is https,  and www.netflix.com  and slash IN.  Slash IN usually means India in the links.  If there is a website,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 294.52,
+            "end": 304.52,
+            "text": " which has to be shown in a different version for US,  it is written as US.  If it is a different version for UK,  then it will be slash UK or something like this.  Like here,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 304.52,
+            "end": 314.64,
+            "text": " we are just guessing,  that instead of IN, if we write UK and refresh it,  it is still IN.  By default, it is tracking that our IP is India.  So we will cross this."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 314.64,
+            "end": 324.64,
+            "text": " And now what we will do is,  we have written netflix here,  and we will link it with netflix.  So one link is of google,  and the other is of netflix."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 324.64,
+            "end": 334.64,
+            "text": " Now if we click on google,  it will reach google.  If we click on netflix,  it will reach netflix.  In this way,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 334.64,
+            "end": 344.76,
+            "text": " there are multiple websites  that we can link with.  Now in our anchor tag,  which is my href,  we can add two types of links."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 344.76,
+            "end": 354.76,
+            "text": " One link is absolute link,  and the other is relative link.  Absolute link means,  the link that is directly visible on the internet,  and has been pasted there."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 354.76,
+            "end": 364.76,
+            "text": " In absolute link,  like we have linked google,  and netflix,  these types of links are called absolute links.  Relative links are"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 364.88,
+            "end": 374.88,
+            "text": " related links.  In relative links,  we usually write file links.  File links means,  if we are on hello world.html,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 374.88,
+            "end": 384.88,
+            "text": " then usually when we make big projects,  to go from one page to another page,  from one html page to another html page,  we write like this.  Let's say I have made the option of home."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 384.88,
+            "end": 395.0,
+            "text": " And to link home  with another page,  we will use our relative link.  So this other page,  this will also be a file"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 395.0,
+            "end": 405.0,
+            "text": " that is in our system.  Relative means,  the file we are working on,  we are writing our link in its relative.  So usually,"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 405.0,
+            "end": 415.0,
+            "text": " if we have made another index.html file,  then we can also write  its link in href.  But for now,  we are not doing that."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 415.0,
+            "end": 425.12,
+            "text": " Because for now,  we have started learning new html.  For now,  we will learn to link  our projects later."
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 425.12,
+            "end": 435.12,
+            "text": " We will learn to link  multiple pages.  But for now,  absolute links are those links  that connect us to something"
+        },
+        {
+            "number": "10",
+            "title": "Anchor Element",
+            "start": 435.12,
+            "end": 445.12,
+            "text": " hosted on the internet.  And in relative links,  we are talking about those links  that exist somewhere  in our file system."
+        }
+    ],
+    "text": " The next element we are going to study in HTML is my anchor element. Anchor element is used to add links to our page. That is, we go to many websites where we can click on any text and go to another page. Like if I take a normal Wikipedia example, let's suppose we go to the Avengers page of Wikipedia, so if we click on talk here, then what will happen is we will go to another page. Or if we click on this based on, then what will happen is we will go to another section or page. So the work of this method, means we go to another place by clicking on something, we use it in the form of anchor tag. What do we call this? We call it links. Or in HTML language, it is called anchor tag. So if we want to add links on our page, then we use anchor tags. Anchor tag means our basic A tag. If we simply write A, then it is called my anchor tag. But just writing anchor tag does not do anything. We have to link with anchor tag that where do you want to go by clicking on it. Like if we want to go to google.com, so to link, the opening tag of anchor tag, this is my opening tag, this is my closing tag, in the opening tag, we have our href, this is my attribute, what do we call this? We call this attribute. So the full form of href is, we have hypertext reference. Now this sounds heavy, but its basic meaning is link. Which link do you want to go by clicking on it. So the value of hyperlink reference, we will set it as google.com link. So we write the whole link, not just google.com, we have to write the link of the whole website. And then we can write any text in the anchor tag, by clicking on the text, we will reach that link. Now all these things that we have said, we will do them slowly. What we will do is, we will remove the old unordered list code, save and refresh. Here we will do tags in html, refresh. And now what we will do is, we will create an anchor tag. To create an anchor tag, we will simply write a. We will save and refresh. So simply writing a will not do anything on the screen. But when we will write some text inside this anchor tag, then that text will become clickable. Now if I write google, save and refresh. So now what happens is, only the normal google is displayed here. But if we add google link, we will add the link in the opening tag, we will write href, hyper reference is equal to double quotes, this is my attribute. And what we will write inside the attribute, let's suppose we wrote google.com, as soon as we click on google, we reach google.com, save and refresh. What is google.com? It is a link. So what will happen is, it will start giving us a message. And as soon as we click on it, we will reach this page. Here it is saying, your file could not be accessed. It is saying, maybe your file has been moved, edited or deleted. Error is showing file not found. So what did it do? HTML understood that in href, the google.com you have written, you are trying to say that google.com is a file of your computer, which is now trying to find the browser. But google.com is not a file, google.com is a complete website. But on that website, as soon as you type google.com, the link of that website is not only google.com, as soon as we click on it, and expand it, what happens after clicking? As I clicked here, we will click again, by clicking twice, it will expand. So we don't just search on google.com, whenever we write google.com in our browser, we type https, colon, double slash, www.google.com, this is the complete link of google. And we have to copy and paste this link. What is https, what is www, these are the full forms, which we have learnt in our childhood. Https is our protocol, which we will learn later. WWW means World Wide Web. So google.com will be searched on the whole web. Basically, if we want to link with google.com, we have to write the complete link. We will click on save, and refresh it. Now if we refresh, there will be no change in the look. But as soon as we click on it, we will reach google.com. We can back it. In the same way, we can create another anchor tag. We will write netflix in this anchor tag. And we will link it with netflix.com. I have written href, and we will take the complete link of netflix.com. netflix.com We will copy and paste it. So netflix.com is https, and www.netflix.com and slash IN. Slash IN usually means India in the links. If there is a website, which has to be shown in a different version for US, it is written as US. If it is a different version for UK, then it will be slash UK or something like this. Like here, we are just guessing, that instead of IN, if we write UK and refresh it, it is still IN. By default, it is tracking that our IP is India. So we will cross this. And now what we will do is, we have written netflix here, and we will link it with netflix. So one link is of google, and the other is of netflix. Now if we click on google, it will reach google. If we click on netflix, it will reach netflix. In this way, there are multiple websites that we can link with. Now in our anchor tag, which is my href, we can add two types of links. One link is absolute link, and the other is relative link. Absolute link means, the link that is directly visible on the internet, and has been pasted there. In absolute link, like we have linked google, and netflix, these types of links are called absolute links. Relative links are related links. In relative links, we usually write file links. File links means, if we are on hello world.html, then usually when we make big projects, to go from one page to another page, from one html page to another html page, we write like this. Let's say I have made the option of home. And to link home with another page, we will use our relative link. So this other page, this will also be a file that is in our system. Relative means, the file we are working on, we are writing our link in its relative. So usually, if we have made another index.html file, then we can also write its link in href. But for now, we are not doing that. Because for now, we have started learning new html. For now, we will learn to link our projects later. We will learn to link multiple pages. But for now, absolute links are those links that connect us to something hosted on the internet. And in relative links, we are talking about those links that exist somewhere in our file system."
+}

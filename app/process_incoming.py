@@ -41,6 +41,7 @@ def inference_gemini(prompt):
 df = joblib.load('embedding.joblib')
 
 incoming_query = input("Ask a Question: ")
+print("Processing your query...")
 question_embedding = create_embedding([incoming_query])[0]
 
 similarities = cosine_similarity(np.vstack(df['embedding']), [question_embedding]).flatten()
@@ -73,6 +74,6 @@ with open('prompt.txt','w') as f:
     
 # response = inference(prompt)['response']
 response = inference_gemini(prompt)
-print(response)
+print("response : ", response)
 with open('response.txt','w') as f:
     f.write(response)

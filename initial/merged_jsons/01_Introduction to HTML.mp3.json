@@ -1,0 +1,124 @@
+{
+    "chunks": [
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 0.0,
+            "end": 17.0,
+            "text": " So we are going to start web development with HTML and more specifically with HTML5  Now what is HTML?  If we want to start coding, learn coding, learn programming  then HTML is one of the easiest things in the world of coding  with which we can start learning coding"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 17.0,
+            "end": 43.0,
+            "text": " In fact, in some schools HTML is taught in 7th and 8th class  So we will start our web development journey from such an easy level  Let's talk about HTML, its full form is Hyper Text Markup Language  This is a language which counts like a markup language  Markup language means HTML tells us about the structure and formatting of all the things written on a website"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 43.0,
+            "end": 62.0,
+            "text": " If I am looking at a website, then a paragraph will come in it  or a button will come, or a heading, or a title  or I should see an image there  HTML makes all these things for us, explains to a browser  that how things should look on a website, how should their formatting be"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 62.0,
+            "end": 90.0,
+            "text": " One thing we have to keep in mind, here we are not talking about style, color, font  Here we are talking about what we will see on a web page and in which formatting  Now usually HTML is not treated as a hardcore programming language in coding  Because HTML does not have complex things  HTML is very simple and in fact if you teach a child, he will also understand programming very quickly"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 90.0,
+            "end": 108.0,
+            "text": " if he starts with HTML  First of all, let's talk about what exactly HTML does  If I talk about a normal text, means I have written a simple sentence or paragraph  then it can look like this  In this way, I have written a lot of things in a normal text"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 108.0,
+            "end": 130.0,
+            "text": " If I have to put formatting on this text  Formatting means that I want to add bullet points in some things  I want to write some words in bold, some words in italic, some words I want to underline  After this line, I want to start the next bullet points in the next line  This is called formatting"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 130.0,
+            "end": 146.0,
+            "text": " Instead of writing all the information one after the other  Instead of writing all the information one after the other  We present our text or data in a better form  If this is a normal text, then its formatted form will be something like this  In which the line will be written in this way in the beginning"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 146.0,
+            "end": 160.0,
+            "text": " After that I have added bullet points  After that I have made the word bold  And if I look at H2O, which is the molecular formula of water  In that too, 2 is small  If you write it in normal text, then H2 will be as big"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 160.0,
+            "end": 178.0,
+            "text": " So in this way, what thing is to be presented in which way  It makes us HTML  So we use a normal plain text to convert it into formatted text  So in a way we can understand that HTML tells our browser  That is, Chrome, Safari, Edge"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 178.0,
+            "end": 193.0,
+            "text": " It tells all these rules that how to present our plain text  Now let's talk about a normal Google search page  If I right click on this page, then I have a lot of options  I have all the options in Mac  But if you are using Windows or Linux"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 193.0,
+            "end": 203.0,
+            "text": " So in that too, if you are on Chrome  So there you will get an option of a page source  And you will get an option of an inspect  First of all, I am going to click on the page source  So what will I know"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 203.0,
+            "end": 217.0,
+            "text": " I will get all the code of this page written for me  And if I notice this  So here it starts with a doc type HTML  That is, this whole thing is an HTML file  So this is the code of HTML"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 217.0,
+            "end": 228.0,
+            "text": " Which tells how to present data  Where is the button coming  What is the font of Google  How is the photo going to be  So all these things are told to a browser"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 228.0,
+            "end": 241.0,
+            "text": " And HTML again takes out all the information for formatting  Here if I come back to my Google page  I right click and click on inspect  So a window opens for me  Now after clicking on this arrow here"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 241.0,
+            "end": 253.0,
+            "text": " I am going to scroll on my page  So here I will know that a lot of boxes are being made  Google is in a single box  Search is also in a single box  If I talk about this small search, it is also in a box"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 253.0,
+            "end": 266.0,
+            "text": " If I talk about these icons, then this is also in a rectangular box  I can see all the things  Why do things appear in these rectangular boxes  We are going to read about it in detail  When we talk about HTML elements"
+        },
+        {
+            "number": "01",
+            "title": "Introduction to HTML",
+            "start": 266.0,
+            "end": 282.0,
+            "text": " But these are actually small elements  From which a whole web page is made  And here inside the elements  All my HTML code is there  Which tells how this page will look in this formatting due to HTML"
+        }
+    ],
+    "text": " So we are going to start web development with HTML and more specifically with HTML5 Now what is HTML? If we want to start coding, learn coding, learn programming then HTML is one of the easiest things in the world of coding with which we can start learning coding In fact, in some schools HTML is taught in 7th and 8th class So we will start our web development journey from such an easy level Let's talk about HTML, its full form is Hyper Text Markup Language This is a language which counts like a markup language Markup language means HTML tells us about the structure and formatting of all the things written on a website If I am looking at a website, then a paragraph will come in it or a button will come, or a heading, or a title or I should see an image there HTML makes all these things for us, explains to a browser that how things should look on a website, how should their formatting be One thing we have to keep in mind, here we are not talking about style, color, font Here we are talking about what we will see on a web page and in which formatting Now usually HTML is not treated as a hardcore programming language in coding Because HTML does not have complex things HTML is very simple and in fact if you teach a child, he will also understand programming very quickly if he starts with HTML First of all, let's talk about what exactly HTML does If I talk about a normal text, means I have written a simple sentence or paragraph then it can look like this In this way, I have written a lot of things in a normal text If I have to put formatting on this text Formatting means that I want to add bullet points in some things I want to write some words in bold, some words in italic, some words I want to underline After this line, I want to start the next bullet points in the next line This is called formatting Instead of writing all the information one after the other Instead of writing all the information one after the other We present our text or data in a better form If this is a normal text, then its formatted form will be something like this In which the line will be written in this way in the beginning After that I have added bullet points After that I have made the word bold And if I look at H2O, which is the molecular formula of water In that too, 2 is small If you write it in normal text, then H2 will be as big So in this way, what thing is to be presented in which way It makes us HTML So we use a normal plain text to convert it into formatted text So in a way we can understand that HTML tells our browser That is, Chrome, Safari, Edge It tells all these rules that how to present our plain text Now let's talk about a normal Google search page If I right click on this page, then I have a lot of options I have all the options in Mac But if you are using Windows or Linux So in that too, if you are on Chrome So there you will get an option of a page source And you will get an option of an inspect First of all, I am going to click on the page source So what will I know I will get all the code of this page written for me And if I notice this So here it starts with a doc type HTML That is, this whole thing is an HTML file So this is the code of HTML Which tells how to present data Where is the button coming What is the font of Google How is the photo going to be So all these things are told to a browser And HTML again takes out all the information for formatting Here if I come back to my Google page I right click and click on inspect So a window opens for me Now after clicking on this arrow here I am going to scroll on my page So here I will know that a lot of boxes are being made Google is in a single box Search is also in a single box If I talk about this small search, it is also in a box If I talk about these icons, then this is also in a rectangular box I can see all the things Why do things appear in these rectangular boxes We are going to read about it in detail When we talk about HTML elements But these are actually small elements From which a whole web page is made And here inside the elements All my HTML code is there Which tells how this page will look in this formatting due to HTML"
+}

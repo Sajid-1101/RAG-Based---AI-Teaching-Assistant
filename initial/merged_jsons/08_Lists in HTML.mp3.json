@@ -1,0 +1,187 @@
+{
+    "chunks": [
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 0.0,
+            "end": 20.16,
+            "text": " The next topic we are going to study in HTML is my list element.  Whenever we want to show our list in HTML or browser, we use the list tag.  We can show a list in two forms. One is in the form of bullet points.  Like this, item A, item B, item C.  If we want to show a list like this,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 20.16,
+            "end": 37.44,
+            "text": " in which my bullet points come here,  means the dots that come in the circle,  this type of list is called an unordered list.  Unordered list means that there is no exact order in this list.  This is a list in which we can show item B at the top and A at the bottom."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 37.44,
+            "end": 55.0,
+            "text": " So there is no set sequence of our items.  On the other hand, we have lists in which we write number 1, number 2, number 3, number 4.  For example, if there is a list of roll numbers,  then it is possible that the name that starts with A will come up a little.  The name that starts with B will come later."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 55.0,
+            "end": 71.16,
+            "text": " The name that starts with D will come after that.  And in this way, multiple names will come down following.  And in the same way, if we have shown in the form of A, B, C, D,  then these types of lists are called ordered lists.  Ordered list means that there is a fixed sequence of these."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 71.16,
+            "end": 87.04,
+            "text": " 1, 2, 3, 4 are coming in sequence. A, B, C, D are coming in sequence.  So we will learn to make both types of lists in HTML.  First of all, let's talk about our unordered list.  Now to create an unordered list in HTML,  we will have to use our unordered list tag first."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 87.16000000000001,
+            "end": 102.80000000000001,
+            "text": " So for that, we use the UL tag.  The UL tag is used for unordered lists.  But just writing the UL tag does not create our list.  To create an item in each list,  we have to use another tag in it, which is our list item tag."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 102.80000000000001,
+            "end": 119.4,
+            "text": " So if this is my item, then I will have to use an LI tag for it.  For this, I will have to use another LI tag.  For this, I will have to use another LI tag.  So if I am making a list of food,  then I can write my first item, then second item, then third item in the list item tag."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 119.4,
+            "end": 132.24,
+            "text": " And we can add as many items as we want in our list.  So let's create a list in HTML.  We have taken a file named hello world.html.  We will press the exclamation mark on it.  Return."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 132.24,
+            "end": 142.4,
+            "text": " So our boilerplate code will be generated for us.  And let's give this file a title.  List in HTML.  Let's save.  Now in the body tag, where we write all the content,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 142.4,
+            "end": 159.48000000000002,
+            "text": " we are going to create our unordered list.  First of all, we will write the ul tag for our unordered list.  Now save the unordered list tag and refresh it in the browser.  So now we will not see anything here.  Because just writing unordered list does not create a list."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 159.48000000000002,
+            "end": 171.48000000000002,
+            "text": " We have to create items in it as well.  If we want, we can write bread in items.  Next item we can write, let's say jam.  Like this.  Jam."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 171.56,
+            "end": 181.56,
+            "text": " Apart from this, we can write the next item.  Let's say we wrote fruity.  Save.  Refresh.  So in this way, my list item, let's zoom in a little bit."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 181.56,
+            "end": 198.56,
+            "text": " I will start seeing it.  If you want to zoom in on your browser,  then usually we press the command and plus icon on our keyboard.  Otherwise, you can simply google and see what is the setting for your browser.  And if you want to create a few more items here,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 198.56,
+            "end": 208.64000000000001,
+            "text": " let's say we created samosa.  We created dosa.  Save.  Refresh.  So we create a list like this with the help of the ul tag and our li tag."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 208.64000000000001,
+            "end": 226.64000000000001,
+            "text": " Now if we want, we can do one more thing.  Like this list item tag, it is not necessary that we can only write text in it.  We can write more different HTML tags in our list item.  Like if we want, we can write our h2 tag in the li tag.  So h2 means my heading tag."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 226.72,
+            "end": 236.72,
+            "text": " And here we can write something like this.  Want to buy.  Save.  Refresh.  So what happened from here, this is my first list item in which it is written want to buy."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 236.72,
+            "end": 250.72,
+            "text": " And the font size of want to buy is quite large.  Why? Because I wrote this in my h2 heading tag.  So in the list, not only my normal text comes,  my other tags like my paragraph tag, my bold tag,  or our header tag, or any other tag,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 250.72,
+            "end": 268.8,
+            "text": " we can present all those tags as my list items.  Now let's talk about the second type of list, which is our ordered list.  For ordered list, we have to write the place of the outer tag.  OL means ordered list.  And in it, normally we create list items in the same way as in unordered list."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 268.8,
+            "end": 280.8,
+            "text": " Like here, we remove want to buy.  Save.  And now we copy and paste this unordered list.  And instead of unordered, we make our tag here.  Ordered list."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 280.8,
+            "end": 291.88,
+            "text": " Save. Refresh.  So this list was my unordered list.  And this list became my ordered list.  So in ordered list, there are 1, 2, 3, 4, 5.  Now the elements will be present in the sequence."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 291.88,
+            "end": 305.88,
+            "text": " Apart from this, we can do one more thing.  Whatever is my order, we can change its type.  So in OL, we can write type is equal to.  Here I wrote type is equal to quotes A.  So I wrote capital A here."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 305.88,
+            "end": 316.96,
+            "text": " I have used double quotes.  What does type is equal to A mean?  It is actually an attribute.  We will study about attributes later.  But for now, we have to remember that in ordered list,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 316.96,
+            "end": 326.96,
+            "text": " if we want to change the type,  we can write type is equal to that type.  Save and refresh.  So now in front of my ordered list,  ABCDE is coming."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 326.96,
+            "end": 335.96,
+            "text": " And here, capital A is at the same place.  If we had saved and refreshed by writing small a,  then what would have happened?  Small a, b, c, d.  The items of our list would have been present in this way."
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 335.96,
+            "end": 346.03999999999996,
+            "text": " So in ordered list, we can change the type.  This is the attribute.  There are some more types.  But these are the most generally used types.  Whenever we are creating an ordered list,"
+        },
+        {
+            "number": "08",
+            "title": "Lists in HTML",
+            "start": 346.03999999999996,
+            "end": 348.03999999999996,
+            "text": " we will use these types to create it."
+        }
+    ],
+    "text": " The next topic we are going to study in HTML is my list element. Whenever we want to show our list in HTML or browser, we use the list tag. We can show a list in two forms. One is in the form of bullet points. Like this, item A, item B, item C. If we want to show a list like this, in which my bullet points come here, means the dots that come in the circle, this type of list is called an unordered list. Unordered list means that there is no exact order in this list. This is a list in which we can show item B at the top and A at the bottom. So there is no set sequence of our items. On the other hand, we have lists in which we write number 1, number 2, number 3, number 4. For example, if there is a list of roll numbers, then it is possible that the name that starts with A will come up a little. The name that starts with B will come later. The name that starts with D will come after that. And in this way, multiple names will come down following. And in the same way, if we have shown in the form of A, B, C, D, then these types of lists are called ordered lists. Ordered list means that there is a fixed sequence of these. 1, 2, 3, 4 are coming in sequence. A, B, C, D are coming in sequence. So we will learn to make both types of lists in HTML. First of all, let's talk about our unordered list. Now to create an unordered list in HTML, we will have to use our unordered list tag first. So for that, we use the UL tag. The UL tag is used for unordered lists. But just writing the UL tag does not create our list. To create an item in each list, we have to use another tag in it, which is our list item tag. So if this is my item, then I will have to use an LI tag for it. For this, I will have to use another LI tag. For this, I will have to use another LI tag. So if I am making a list of food, then I can write my first item, then second item, then third item in the list item tag. And we can add as many items as we want in our list. So let's create a list in HTML. We have taken a file named hello world.html. We will press the exclamation mark on it. Return. So our boilerplate code will be generated for us. And let's give this file a title. List in HTML. Let's save. Now in the body tag, where we write all the content, we are going to create our unordered list. First of all, we will write the ul tag for our unordered list. Now save the unordered list tag and refresh it in the browser. So now we will not see anything here. Because just writing unordered list does not create a list. We have to create items in it as well. If we want, we can write bread in items. Next item we can write, let's say jam. Like this. Jam. Apart from this, we can write the next item. Let's say we wrote fruity. Save. Refresh. So in this way, my list item, let's zoom in a little bit. I will start seeing it. If you want to zoom in on your browser, then usually we press the command and plus icon on our keyboard. Otherwise, you can simply google and see what is the setting for your browser. And if you want to create a few more items here, let's say we created samosa. We created dosa. Save. Refresh. So we create a list like this with the help of the ul tag and our li tag. Now if we want, we can do one more thing. Like this list item tag, it is not necessary that we can only write text in it. We can write more different HTML tags in our list item. Like if we want, we can write our h2 tag in the li tag. So h2 means my heading tag. And here we can write something like this. Want to buy. Save. Refresh. So what happened from here, this is my first list item in which it is written want to buy. And the font size of want to buy is quite large. Why? Because I wrote this in my h2 heading tag. So in the list, not only my normal text comes, my other tags like my paragraph tag, my bold tag, or our header tag, or any other tag, we can present all those tags as my list items. Now let's talk about the second type of list, which is our ordered list. For ordered list, we have to write the place of the outer tag. OL means ordered list. And in it, normally we create list items in the same way as in unordered list. Like here, we remove want to buy. Save. And now we copy and paste this unordered list. And instead of unordered, we make our tag here. Ordered list. Save. Refresh. So this list was my unordered list. And this list became my ordered list. So in ordered list, there are 1, 2, 3, 4, 5. Now the elements will be present in the sequence. Apart from this, we can do one more thing. Whatever is my order, we can change its type. So in OL, we can write type is equal to. Here I wrote type is equal to quotes A. So I wrote capital A here. I have used double quotes. What does type is equal to A mean? It is actually an attribute. We will study about attributes later. But for now, we have to remember that in ordered list, if we want to change the type, we can write type is equal to that type. Save and refresh. So now in front of my ordered list, ABCDE is coming. And here, capital A is at the same place. If we had saved and refreshed by writing small a, then what would have happened? Small a, b, c, d. The items of our list would have been present in this way. So in ordered list, we can change the type. This is the attribute. There are some more types. But these are the most generally used types. Whenever we are creating an ordered list, we will use these types to create it."
+}

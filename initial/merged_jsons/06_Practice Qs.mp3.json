@@ -1,0 +1,145 @@
+{
+    "chunks": [
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 0.0,
+            "end": 25.2,
+            "text": " Now, we are going to solve our practice question 1  Practice question 1 is asking us to recreate the image we have given using our HTML tags  If we look at this image carefully, we can see what is going on here  If I talk about the top, then I have a slight idea that this is going to be my heading  Obviously, we have seen only 3 tags so far"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 25.2,
+            "end": 47.2,
+            "text": " We have seen a heading tag, a paragraph tag and a bold tag  So, we are going to solve our question using the combination of these 3 tags  So, my top level heading is H1  The headings below this, usually after H1, there is H2  So, we will be keeping H2 for this, H2 for this and H2 for this"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 47.2,
+            "end": 73.6,
+            "text": " And we are going to keep this text as my paragraph  So, this will be my paragraph text, in which Tony Stark  If this word is visible in bold, then we will use bold text in the paragraph to show things bold  Same thing here, this line is a normal paragraph, in which two words are bold, so we will use bold tag  So, what is being used here? Here we will be using our nested tags"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 73.6,
+            "end": 99.0,
+            "text": " Here also, we will be using our nested tags, that is, when the second tag comes in the tag, we call it nesting  This is also a combination of my paragraph and bold tag  So, in this way, I have identified which information I have to display with the help of which tag  If I don't want to write in HTML, but want to write normally with a pen and pencil, then what can I write?  I can write my code as it is, first I will write the H1 tag, then I will write my Avengers"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 99.0,
+            "end": 125.39999999999999,
+            "text": " Here my H1 tag will close  After that, I will write my H2 tag, in H2 tag, I am going to write Iron Man  Here my H2 tag will close  In the third, I am going to write a paragraph tag, in the paragraph tag, I will write also goes by the name  Means all this information also goes by the name, I have written all this here in my paragraph tag"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 125.39999999999999,
+            "end": 150.79999999999998,
+            "text": " And this Tony Stark, because it is in bold, so I will write one more tag for it  I will highlight it with yellow, here I will write B and here I am going to write Tony Stark  And this will close my bold tag and here my paragraph tag will close  So in this way, to display these three lines, I can write these three lines  Similarly, to display these two lines, I will use the H2 tag and paragraph tag again"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 150.79999999999998,
+            "end": 170.79999999999998,
+            "text": " In which the bold tag will be nested  So in this way, I can display all my information  Now we are going to write this in our HTML file  First of all, I am going to write my H1 tag, heading 1, in which I will write Avengers  After that, in the next line, my heading 2 tag will come, in which I have written Iron Man with a space"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 170.79999999999998,
+            "end": 196.4,
+            "text": " In the next line, I will write my paragraph tag, here I am going to write also goes by the name  Here my bold tag will come, in which I will write Tony Stark  After this, again on the next line, the H2 tag will come, in which Captain America will be written  And again on the next line, paragraph tag, in the paragraph tag also goes by the name  Again my bold tag will come, Steve Rogers"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 196.4,
+            "end": 222.6,
+            "text": " In the next line, again H2 tag, in which I am going to write Hulk  In the next line, paragraph tag will come here, also goes by the name  Here my bold tag, in which I will write Bruce Banner  So I will save this, I have saved this whole code and now we will refresh it  After refreshing, my same hello world.html file has created this webpage, which we had received an image"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 222.6,
+            "end": 246.6,
+            "text": " All the things are displayed on the same level in the same way  Now if I want, I can inspect this page, what will happen after inspecting?  This whole code that I have written in VS Code, I can see it in my browser  I mean, in the paragraph tag, I wrote something like this, then in the bold tag, I wrote Tony Stark  Then I wrote H2, then in the paragraph tag, I wrote this kind of information"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 246.6,
+            "end": 265.6,
+            "text": " Then I wrote Steve Rogers in the bold tag  So all these things I can see after inspecting in my elements  Now there is one more special thing in my inspect feature  If I want, I can change the title of Avengers and write Shaktimaan  So as soon as I enter this, what will happen?"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 265.6,
+            "end": 288.40000000000003,
+            "text": " Changes will come in my H1 tag  These changes will not come in my VS Code, whatever I have written in the HTML file in VS Code will remain the same  But where did the change come? The change came only in the browser  I mean, whatever I have changed here, it is the same, I can see the change in the webpage  But these changes are not permanent, these changes are temporary, which only happens in your computer"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 288.40000000000003,
+            "end": 304.4,
+            "text": " Like if I am here, my Avengers Wikipedia page  I can also inspect the Wikipedia page  As soon as I inspect, I can find where this Avengers heading is written  This Avengers heading is written here  I can see here, this is also my H1 tag"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 304.4,
+            "end": 319.79999999999995,
+            "text": " Which has a lot of other information, but here it is written The Avengers  Now by changing this The Avengers, I can write my name here  I wrote Shraddha Khapra here  As soon as I entered it, what happened?  Now the name of the Wikipedia page has changed and now it is my name"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 319.8,
+            "end": 337.8,
+            "text": " If I wanted, I could have changed it and written it here  My college, so this has changed  By changing this page, I could have written Shaktimaan here  So the information of the entire Wikipedia page has changed  So sometimes people put such videos on social media that they have changed the entire webpage"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 337.8,
+            "end": 352.59999999999997,
+            "text": " Information is being displayed on Wikipedia  So don't go on such things  It is not necessary that the information that you are seeing by displaying it in any video on a website  It is posted on the actual internet  Because this Shaktimaan has changed"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 352.59999999999997,
+            "end": 364.4,
+            "text": " If you open this link of Avengers from your Wikipedia  Then you will see Avengers only  This small change has happened only in my browser  And only in my system  And this is a temporary change"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 364.4,
+            "end": 378.8,
+            "text": " If I refresh my page  Then the original information that is posted on the internet will be visible again  So in this way, with the help of the inspect feature  We have created a normal webpage  And I have to make some changes in it"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 378.8,
+            "end": 391.8,
+            "text": " If I want to change it, then instead of Tony Stark, if I had written Iron Man here  Then how would my page look  So I can check those changes in the browser  Instead of changing the VS Code file first  Then I come here and refresh"
+        },
+        {
+            "number": "06",
+            "title": "Practice Qs",
+            "start": 391.8,
+            "end": 403.6,
+            "text": " So this feature of inspect will be very useful for us  When we are reading CSS  Or when we are adding more complex features to our webpage  Because only then we will be able to see all our changes on the webpage"
+        }
+    ],
+    "text": " Now, we are going to solve our practice question 1 Practice question 1 is asking us to recreate the image we have given using our HTML tags If we look at this image carefully, we can see what is going on here If I talk about the top, then I have a slight idea that this is going to be my heading Obviously, we have seen only 3 tags so far We have seen a heading tag, a paragraph tag and a bold tag So, we are going to solve our question using the combination of these 3 tags So, my top level heading is H1 The headings below this, usually after H1, there is H2 So, we will be keeping H2 for this, H2 for this and H2 for this And we are going to keep this text as my paragraph So, this will be my paragraph text, in which Tony Stark If this word is visible in bold, then we will use bold text in the paragraph to show things bold Same thing here, this line is a normal paragraph, in which two words are bold, so we will use bold tag So, what is being used here? Here we will be using our nested tags Here also, we will be using our nested tags, that is, when the second tag comes in the tag, we call it nesting This is also a combination of my paragraph and bold tag So, in this way, I have identified which information I have to display with the help of which tag If I don't want to write in HTML, but want to write normally with a pen and pencil, then what can I write? I can write my code as it is, first I will write the H1 tag, then I will write my Avengers Here my H1 tag will close After that, I will write my H2 tag, in H2 tag, I am going to write Iron Man Here my H2 tag will close In the third, I am going to write a paragraph tag, in the paragraph tag, I will write also goes by the name Means all this information also goes by the name, I have written all this here in my paragraph tag And this Tony Stark, because it is in bold, so I will write one more tag for it I will highlight it with yellow, here I will write B and here I am going to write Tony Stark And this will close my bold tag and here my paragraph tag will close So in this way, to display these three lines, I can write these three lines Similarly, to display these two lines, I will use the H2 tag and paragraph tag again In which the bold tag will be nested So in this way, I can display all my information Now we are going to write this in our HTML file First of all, I am going to write my H1 tag, heading 1, in which I will write Avengers After that, in the next line, my heading 2 tag will come, in which I have written Iron Man with a space In the next line, I will write my paragraph tag, here I am going to write also goes by the name Here my bold tag will come, in which I will write Tony Stark After this, again on the next line, the H2 tag will come, in which Captain America will be written And again on the next line, paragraph tag, in the paragraph tag also goes by the name Again my bold tag will come, Steve Rogers In the next line, again H2 tag, in which I am going to write Hulk In the next line, paragraph tag will come here, also goes by the name Here my bold tag, in which I will write Bruce Banner So I will save this, I have saved this whole code and now we will refresh it After refreshing, my same hello world.html file has created this webpage, which we had received an image All the things are displayed on the same level in the same way Now if I want, I can inspect this page, what will happen after inspecting? This whole code that I have written in VS Code, I can see it in my browser I mean, in the paragraph tag, I wrote something like this, then in the bold tag, I wrote Tony Stark Then I wrote H2, then in the paragraph tag, I wrote this kind of information Then I wrote Steve Rogers in the bold tag So all these things I can see after inspecting in my elements Now there is one more special thing in my inspect feature If I want, I can change the title of Avengers and write Shaktimaan So as soon as I enter this, what will happen? Changes will come in my H1 tag These changes will not come in my VS Code, whatever I have written in the HTML file in VS Code will remain the same But where did the change come? The change came only in the browser I mean, whatever I have changed here, it is the same, I can see the change in the webpage But these changes are not permanent, these changes are temporary, which only happens in your computer Like if I am here, my Avengers Wikipedia page I can also inspect the Wikipedia page As soon as I inspect, I can find where this Avengers heading is written This Avengers heading is written here I can see here, this is also my H1 tag Which has a lot of other information, but here it is written The Avengers Now by changing this The Avengers, I can write my name here I wrote Shraddha Khapra here As soon as I entered it, what happened? Now the name of the Wikipedia page has changed and now it is my name If I wanted, I could have changed it and written it here My college, so this has changed By changing this page, I could have written Shaktimaan here So the information of the entire Wikipedia page has changed So sometimes people put such videos on social media that they have changed the entire webpage Information is being displayed on Wikipedia So don't go on such things It is not necessary that the information that you are seeing by displaying it in any video on a website It is posted on the actual internet Because this Shaktimaan has changed If you open this link of Avengers from your Wikipedia Then you will see Avengers only This small change has happened only in my browser And only in my system And this is a temporary change If I refresh my page Then the original information that is posted on the internet will be visible again So in this way, with the help of the inspect feature We have created a normal webpage And I have to make some changes in it If I want to change it, then instead of Tony Stark, if I had written Iron Man here Then how would my page look So I can check those changes in the browser Instead of changing the VS Code file first Then I come here and refresh So this feature of inspect will be very useful for us When we are reading CSS Or when we are adding more complex features to our webpage Because only then we will be able to see all our changes on the webpage"
+}
