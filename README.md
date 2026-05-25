@@ -1,4 +1,3 @@
-````md
 # Screenshots
 
 ## Chunk Generation Output
