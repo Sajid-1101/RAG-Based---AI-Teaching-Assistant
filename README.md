@@ -1,155 +1,154 @@
-# AI-Powered RAG Video Assistant
+````md
+# Screenshots
 
-An intelligent Retrieval-Augmented Generation (RAG) system that allows users to semantically search course videos and instantly find where specific topics are taught using AI-powered embeddings and LLM-based responses.
+## Chunk Generation Output
 
-Built using `bge-m3` embeddings, cosine similarity retrieval, Whisper-based subtitle chunking, and support for both local and cloud-based Large Language Models (LLMs), the system retrieves relevant video segments along with timestamps and generates contextual answers.
-
----
-
-# Features
-
-- Semantic video search using vector embeddings
-- AI-powered question answering from course content
-- Timestamp-aware responses
-- Automatic subtitle chunk generation using Whisper
-- Supports both local and cloud LLM inference
-- Cosine similarity-based retrieval pipeline
-- Metadata-aware chunk processing
-- Modular and scalable RAG architecture
-- Human-like contextual responses
-- Easy integration with custom datasets and courses
+<p align="center">
+  <img src="assets/Sample_Chunks.png" width="900"/>
+</p>
 
 ---
 
-# LLM Support
+## Retrieved AI Response
 
-This project supports two different inference approaches:
-
-| Model | Type | Description |
-|---|---|---|
-| `llama3.2` | Local LLM | Runs completely offline using Ollama. No API required, but requires local model setup and sufficient system resources. |
-| `Gemini 2.5 Flash` | Cloud API | Uses Google Gemini API for faster and higher-quality responses without requiring local model hosting. |
-
-### Local Inference (llama3.2 via Ollama)
-- Fully offline execution
-- No external API dependency
-- Requires Ollama setup and local model download
-- Higher system resource usage
-
-### Cloud Inference (Gemini API)
-- No local LLM required
-- Faster response generation
-- Better answer quality
-- Requires Gemini API key integration
+<p align="center">
+  <img src="assets/Saved_response.png" width="900"/>
+</p>
 
 ---
 
-# Tech Stack
+## Inference Pipeline
 
-| Technology | Usage |
-|---|---|
-| Python | Backend |
-| Ollama | Local LLM Runtime |
-| Gemini API | Cloud Inference |
-| bge-m3 | Embedding Model |
-| OpenAI Whisper | Audio Transcription |
-| Pandas | Data Processing |
-| NumPy | Vector Operations |
-| Scikit-learn | Cosine Similarity |
-| Joblib | Embedding Storage |
-
----
-
-# Project Architecture
-
-```text
-                    ┌─────────────────────┐
-                    │   Course Videos     │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Audio Extraction    │
-                    │ (Video → MP3)       │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Whisper Transcriber │
-                    │  Subtitle Creation  │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Chunk Generation    │
-                    │ + Metadata Storage  │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ bge-m3 Embeddings   │
-                    │ Vector Creation     │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Cosine Similarity   │
-                    │ Semantic Retrieval  │
-                    └─────────┬───────────┘
-                              │
-                              ▼
-                    ┌─────────────────────┐
-                    │ Prompt Augmentation │
-                    └─────────┬───────────┘
-                              │
-               ┌──────────────┴──────────────┐
-               │                             │
-               ▼                             ▼
-     ┌──────────────────┐         ┌──────────────────┐
-     │ llama3.2 Ollama  │         │ Gemini 2.5 Flash │
-     │  Local Inference │         │   API Inference  │
-     └────────┬─────────┘         └────────┬─────────┘
-              │                              │
-              └──────────────┬───────────────┘
-                             ▼
-                  ┌─────────────────────┐
-                  │ AI Generated Answer │
-                  │ + Relevant Timestamp│
-                  └─────────────────────┘
-```
+<p align="center">
+  <img src="assets/inference.png" width="900"/>
+</p>
 
 ---
 
 # Folder Structure
 
 ```text
-RAG-Project/
+RAG-PROJECT/
 │
 ├── app/
+│   ├── __pycache__/
 │   ├── config.py
-│   ├── process_incoming.py
 │   ├── embedding.joblib
+│   ├── process_incoming.py
+│   ├── prompt.txt
+│   └── response.txt
+│
+├── assets/
+│   ├── inference.png
+│   ├── Sample_Chunks.png
+│   └── Saved_response.png
 │
 ├── initial/
 │   ├── audios/
-│   ├── videos/
 │   ├── jsons/
-│   ├── process_video.py
+│   ├── merged_jsons/
+│   ├── videos/
 │   ├── create_chunks.py
+│   ├── merge_chunks.py
+│   ├── output.json
+│   ├── process_video.py
 │   ├── read_chunks.py
+│   └── stt.py
 │
-├── requirements.txt
+├── .gitignore
 ├── README.md
-└── .gitignore
-```
+├── requirements.txt
+└── tempCodeRunnerFile.py
+````
 
 ---
 
-# How to Use This RAG AI Teaching Assistant on Your Own Data
+# How to Use This RAG AI Teaching Assistant
 
 This project allows you to build an AI-powered semantic search assistant for educational videos using Retrieval-Augmented Generation (RAG), embeddings, and Large Language Models (LLMs).
 
 The system processes course videos, generates subtitle embeddings, retrieves semantically relevant chunks, and answers user queries with contextual timestamps and explanations.
+
+````md id="0h0zuh"
+# Installation & Setup
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Sajid-1101/RAG-Based---AI-Teaching-Assistant.git
+cd RAG-PROJECT
+````
+
+---
+
+## 2. Create Virtual Environment (Recommended)
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 4. Install Ollama
+
+Download and install Ollama from:
+
+https://ollama.com
+
+Start Ollama:
+
+```bash
+ollama serve
+```
+
+---
+
+## 5. Pull Required Models
+
+```bash
+ollama pull bge-m3
+ollama pull llama3.2
+```
+
+---
+
+## 6. Configure API Keys (Optional)
+
+If using Gemini API:
+
+Create a `.env` file or update `config.py` with:
+
+```python
+GEMINI_API_KEY = "your_api_key"
+```
+
+---
+
+## 7. You're Ready to Run the Pipeline
+
+Continue with the steps below.
+
+```
+```
+
 
 ---
 
@@ -164,6 +163,8 @@ Whisper Transcription
    ↓
 Chunk Generation
    ↓
+Chunk Merging
+   ↓
 Embedding Creation
    ↓
 Vector Similarity Search
@@ -177,15 +178,13 @@ LLM Response Generation
 
 # Step 1 — Add Your Videos
 
-Move all your course or lecture videos into the `videos/` directory.
-
-Example:
+Move all lecture/course videos into:
 
 ```text
 initial/videos/
 ```
 
-Recommended naming format:
+Example:
 
 ```text
 01_Introduction.mp4
@@ -195,12 +194,12 @@ Recommended naming format:
 
 ---
 
-# Step 2 — Convert Videos to MP3
+# Step 2 — Convert Videos to Audio
 
 Run:
 
 ```bash
-python process_video.py
+python initial/process_video.py
 ```
 
 This extracts audio files into:
@@ -211,24 +210,21 @@ initial/audios/
 
 ---
 
-# Step 3 — Generate JSON Subtitle Chunks
+# Step 3 — Generate Subtitle Chunks
 
 Run:
 
 ```bash
-python create_chunks.py
+python initial/create_chunks.py
 ```
 
 This step:
-- transcribes audio using Whisper
-- generates subtitle chunks
-- stores metadata such as:
-  - video title
-  - lecture number
-  - timestamps
-  - subtitle text
 
-Generated files are stored in:
+* transcribes audio using Whisper
+* creates subtitle chunks
+* stores timestamps and metadata
+
+Generated JSON files are stored in:
 
 ```text
 initial/jsons/
@@ -236,120 +232,67 @@ initial/jsons/
 
 ---
 
-# Step 4 — Generate Embeddings
+# Step 4 — Merge Chunks
 
 Run:
 
 ```bash
-python read_chunks.py
+python initial/merge_chunks.py
 ```
 
 This step:
-- loads subtitle chunks
-- generates semantic embeddings using `bge-m3`
-- stores embeddings in a dataframe
-- saves vector data as:
+
+* merges related subtitle chunks
+* improves semantic retrieval quality
+* prepares optimized chunk structures
+
+Merged files are stored in:
 
 ```text
-embedding.joblib
+initial/merged_jsons/
 ```
 
 ---
 
-# Step 5 — Run the RAG Inference Pipeline
+# Step 5 — Generate Embeddings
 
 Run:
 
 ```bash
-python process_incoming.py
+python initial/read_chunks.py
+```
+
+This step:
+
+* loads merged chunks
+* generates embeddings using `bge-m3`
+* stores vector embeddings
+
+Generated vector file:
+
+```text
+app/embedding.joblib
+```
+
+---
+
+# Step 6 — Run the RAG Inference Pipeline
+
+Run:
+
+```bash
+python app/process_incoming.py
 ```
 
 The system:
+
 1. receives a user query
 2. generates query embeddings
-3. performs cosine similarity search
+3. performs cosine similarity retrieval
 4. retrieves relevant chunks
 5. augments the prompt
 6. sends context to the selected LLM
-7. generates a contextual answer with timestamps
+7. generates contextual responses with timestamps
 
----
-
-# Example Queries
-
-```text
-Where is boilerplate code taught?
-Which lecture explains the p tag?
-Where are anchor elements discussed?
-Which video covers HTML lists?
 ```
-
----
-
-# Models Used
-
-| Model | Purpose |
-|---|---|
-| `bge-m3` | Embedding generation |
-| `llama3.2` | Local LLM inference |
-| `Gemini 2.5 Flash` | Cloud-based inference |
-| `Whisper` | Audio transcription |
-
----
-
-# Key Highlights
-
-- Implemented end-to-end RAG pipeline from scratch
-- Integrated semantic retrieval with LLM reasoning
-- Designed modular preprocessing and inference workflows
-- Built timestamp-aware educational assistant for video-based learning
-- Supports both local and cloud-based inference systems
-- Demonstrates practical AI engineering concepts
-
----
-
-# Recommended Setup
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
 ```
-
-Start Ollama:
-
-```bash
-ollama serve
-```
-
-Pull required local models:
-
-```bash
-ollama pull bge-m3
-ollama pull llama3.2
-```
-
----
-
-# Future Improvements
-
-- Streamlit / React frontend
-- FAISS or Qdrant integration
-- Multi-course support
-- Chat history and memory
-- Web deployment
-- Real-time indexing
-- Authentication system
-
----
-
-# Repository Purpose
-
-This project was built to explore modern AI engineering concepts including:
-- Retrieval-Augmented Generation (RAG)
-- Embeddings and vector search
-- Semantic similarity
-- Prompt engineering
-- Local and cloud LLM orchestration
-- AI-powered educational search systems
-- 
