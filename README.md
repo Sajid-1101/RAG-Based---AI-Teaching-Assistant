@@ -68,7 +68,6 @@ This project allows you to build an AI-powered semantic search assistant for edu
 
 The system processes course videos, generates subtitle embeddings, retrieves semantically relevant chunks, and answers user queries with contextual timestamps and explanations.
 
-````md id="0h0zuh"
 # Installation & Setup
 
 ## 1. Clone the Repository
