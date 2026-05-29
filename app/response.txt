@@ -1,1 +1,1 @@
-The practice session in "Practice Qs" (video 06) at 0:00 to 0:25 covers recreating an image using HTML tags, with a specific mention of identifying and using a heading tag, based on the 3 tags learned so far.
+The practice session is covered in video number 06, titled "Practice Qs". In this video, practice question 1 asks you to recreate a given image using HTML tags, focusing on concepts like headings and the HTML tags learned up to that point.

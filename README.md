@@ -33,9 +33,13 @@ RAG-PROJECT/
 │   ├── __pycache__/
 │   ├── config.py
 │   ├── embedding.joblib
+│   ├── external_videos.json
+│   ├── flask_app.py
 │   ├── process_incoming.py
 │   ├── prompt.txt
-│   └── response.txt
+│   ├── response.txt
+│   └── templates/
+│       └── index.html
 │
 ├── assets/
 │   ├── inference.png
@@ -55,10 +59,11 @@ RAG-PROJECT/
 │   └── stt.py
 │
 ├── .gitignore
+├── Procfile
 ├── README.md
 ├── requirements.txt
 └── tempCodeRunnerFile.py
-````
+```
 
 ---
 
@@ -67,6 +72,32 @@ RAG-PROJECT/
 This project allows you to build an AI-powered semantic search assistant for educational videos using Retrieval-Augmented Generation (RAG), embeddings, and Large Language Models (LLMs).
 
 The system processes course videos, generates subtitle embeddings, retrieves semantically relevant chunks, and answers user queries with contextual timestamps and explanations.
+
+## Two Local Usage Modes
+
+You can run the RAG pipeline locally in two ways. Both modes require the local embedding server (default endpoint: `http://localhost:11434/api/embed`) to be running.
+
+1) Flask web interface (interactive)
+
+- Start the web UI:
+
+```bash
+python app/flask_app.py
+```
+
+- Open the app in your browser at `http://127.0.0.1:5000`.
+- Use the prompt form in the web UI to send queries to the RAG pipeline and view responses. This mode is best for exploration and manual testing.
+
+2) Terminal / script mode (direct pipeline run)
+
+- Run the inference script directly:
+
+```bash
+python app/process_incoming.py
+```
+
+- This executes the RAG inference flow without the web UI. The script reads the pipeline inputs (for example `app/prompt.txt`) and writes outputs to `app/response.txt`.
+- Use this mode for automation, debugging, or non-interactive processing.
 
 # Installation & Setup
 
@@ -78,7 +109,6 @@ cd RAG-PROJECT
 ````
 
 ---
-
 ## 2. Create Virtual Environment (Recommended)
 
 ### Windows
@@ -111,7 +141,7 @@ Download and install Ollama from:
 
 https://ollama.com
 
-Start Ollama:
+Start Ollama with the local server:
 
 ```bash
 ollama serve
@@ -121,10 +151,14 @@ ollama serve
 
 ## 5. Pull Required Models
 
+The `bge-m3` model is required for embedding user prompts and query vectors. The `llama3.2` model is used for text generation.
+
 ```bash
 ollama pull bge-m3
 ollama pull llama3.2
 ```
+
+If you are only using the embedding endpoint, `bge-m3` is the critical model for prompt embedding.
 
 ---
 
@@ -140,13 +174,27 @@ GEMINI_API_KEY = "your_api_key"
 
 ---
 
-## 7. You're Ready to Run the Pipeline
+## 7. Run the Flask App Locally
+
+Start the Flask web interface with:
+
+```bash
+python app/flask_app.py
+```
+
+Then open this address in your browser:
+
+```text
+http://127.0.0.1:5000
+```
+
+If your virtual environment is active and Ollama is running locally, the app should load in the browser and display the prompt form plus sample video links.
+
+---
+
+## 8. You're Ready to Run the Pipeline
 
 Continue with the steps below.
-
-```
-```
-
 
 ---
 

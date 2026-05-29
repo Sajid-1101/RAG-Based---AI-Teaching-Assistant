@@ -1,0 +1,10 @@
+joblib
+pandas
+requests
+numpy
+scikit-learn
+python-dotenv
+openai-whisper
+torch
+Flask
+gunicorn

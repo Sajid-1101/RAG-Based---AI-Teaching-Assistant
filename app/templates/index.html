@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video QA Landing Page</title>
+    <style>
+      :root {
+        color-scheme: dark;
+        --bg: #0f172a;
+        --surface: #111827;
+        --surface-muted: #1f2937;
+        --text: #e2e8f0;
+        --text-muted: #94a3b8;
+        --accent: #60a5fa;
+        --accent-strong: #3b82f6;
+        --border: rgba(148, 163, 184, 0.16);
+        --shadow: 0 18px 50px rgba(15, 23, 42, 0.45);
+      }
+
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        font-family: Inter, system-ui, sans-serif;
+        background: radial-gradient(circle at top, rgba(96, 165, 250, 0.13), transparent 32%),
+          linear-gradient(180deg, #020617 0%, #111827 100%);
+        color: var(--text);
+      }
+
+      .container {
+        width: min(1140px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 32px 0;
+      }
+
+      header {
+        margin-bottom: 28px;
+      }
+
+      h1 {
+        margin: 0 0 10px;
+        font-size: clamp(2rem, 3vw, 3rem);
+        letter-spacing: -0.04em;
+      }
+
+      p.lead {
+        margin: 0;
+        line-height: 1.7;
+        color: var(--text-muted);
+        max-width: 740px;
+      }
+
+      .pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 18px;
+        padding: 10px 14px;
+        border-radius: 999px;
+        background: rgba(96, 165, 250, 0.12);
+        color: #c7d2fe;
+        font-size: 0.95rem;
+      }
+
+      .grid {
+        display: grid;
+        gap: 22px;
+        grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      }
+
+      .card {
+        padding: 26px;
+        border-radius: 24px;
+        background: rgba(15, 23, 42, 0.96);
+        border: 1px solid var(--border);
+        box-shadow: var(--shadow);
+      }
+
+      .card h2 {
+        margin-top: 0;
+        margin-bottom: 18px;
+        font-size: 1.55rem;
+      }
+
+      form {
+        display: grid;
+        gap: 16px;
+      }
+
+      label {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+      }
+
+      input[type=text] {
+        width: 100%;
+        padding: 16px 18px;
+        border-radius: 16px;
+        border: 1px solid rgba(148, 163, 184, 0.22);
+        background: rgba(15, 23, 42, 0.88);
+        color: var(--text);
+        font-size: 1rem;
+      }
+
+      input[type=text]::placeholder {
+        color: #718096;
+      }
+
+      button {
+        width: fit-content;
+        min-width: 140px;
+        padding: 14px 20px;
+        border-radius: 16px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+        cursor: pointer;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+
+      button:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 18px 30px rgba(59, 130, 246, 0.25);
+      }
+
+      .response {
+        white-space: pre-wrap;
+        background: #0b1220;
+        padding: 20px;
+        border-radius: 18px;
+        border: 1px solid rgba(96, 165, 250, 0.18);
+        color: #dbeafe;
+      }
+
+      .sample-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .sample-item {
+        padding: 14px 0;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.16);
+      }
+
+      .sample-item:last-child {
+        border-bottom: none;
+      }
+
+      .sample-item strong {
+        display: block;
+        margin-bottom: 4px;
+        color: #ffffff;
+      }
+
+      .sample-item span {
+        color: var(--text-muted);
+        font-size: 0.95rem;
+      }
+
+      .flash {
+        padding: 16px 18px;
+        margin-bottom: 20px;
+        background: rgba(251, 191, 36, 0.12);
+        border: 1px solid rgba(251, 191, 36, 0.28);
+        border-radius: 16px;
+        color: #f8b26a;
+      }
+
+      .helper {
+        margin-top: 18px;
+        padding: 18px;
+        border-radius: 18px;
+        background: rgba(100, 116, 139, 0.12);
+        color: var(--text-muted);
+        line-height: 1.7;
+      }
+
+      .video-link {
+        display: inline-block;
+        margin-top: 10px;
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 0.95rem;
+      }
+
+      .video-link:hover {
+        text-decoration: underline;
+      }
+
+      .text-muted {
+        color: var(--text-muted);
+      }
+
+      .loader {
+        display: none;
+        align-items: center;
+        gap: 12px;
+        margin-top: 10px;
+        color: #bfdbfe;
+      }
+
+      .spinner {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 3px solid rgba(255, 255, 255, 0.16);
+        border-top-color: rgba(56, 189, 248, 1);
+        animation: spin 0.85s linear infinite;
+      }
+
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+
+      @media (max-width: 860px) {
+        .grid { grid-template-columns: 1fr; }
+      }
+
+      @media (max-width: 560px) {
+        .container { padding: 20px 12px; }
+        .card { padding: 20px; }
+        button { width: 100%; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>AI Teaching Assistant</h1>
+        <p class="lead">Ask questions only about the sample videos. This app is trained on the provided course video data and returns answers from related lessons.</p>
+        <div class="pill">Your question should match the sample videos — the model is built around this collection.</div>
+      </header>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, message in messages %}
+            <div class="flash">{{ message }}</div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+
+      <div class="grid">
+        <div class="card">
+          <h2>Ask a question</h2>
+          <form method="post" id="promptForm">
+            <label for="prompt">Prompt</label>
+            <input id="prompt" name="prompt" type="text" placeholder="Ask something about the course videos" value="{{ prompt|e }}" autocomplete="off" />
+            <button id="submitButton" type="submit">Submit</button>
+            <div class="loader" id="loader">
+              <div class="spinner"></div>
+              <span>Processing your question...</span>
+            </div>
+          </form>
+
+          <div class="helper">
+            Tip: Questions should relate to the sample video lessons, their titles, or the content in the available subtitle chunks.
+          </div>
+
+          {% if response %}
+            <div style="margin-top:24px;">
+              <h3>Response</h3>
+              <div class="response">{{ response }}</div>
+            </div>
+          {% endif %}
+        </div>
+
+        <aside class="card">
+          <h2>Sample video data</h2>
+          <p>These are the current metadata files from <code>initial/merged_jsons</code>. Ask questions only about these course videos.</p>
+          <ul class="sample-list">
+            {% for sample in samples %}
+              <li class="sample-item">
+                <strong>{{ loop.index }}. {{ sample.title }}</strong>
+                <span>{{ sample.file_name }}</span>
+                {% if sample.external_player_url %}
+                  <div><a class="video-link" href="{{ sample.external_player_url }}" target="_blank" rel="noopener">Open external player</a></div>
+                {% elif sample.external_url %}
+                  <div><a class="video-link" href="{{ sample.external_url }}" target="_blank" rel="noopener">Open video link</a></div>
+                {% endif %}
+              </li>
+            {% else %}
+              <li class="sample-item">No sample videos found.</li>
+            {% endfor %}
+          </ul>
+
+        </aside>
+      </div>
+    </div>
+
+    <script>
+      const form = document.getElementById('promptForm');
+      const loader = document.getElementById('loader');
+      const submitButton = document.getElementById('submitButton');
+
+      form.addEventListener('submit', () => {
+        submitButton.disabled = true;
+        submitButton.textContent = 'Processing...';
+        loader.style.display = 'flex';
+      });
+    </script>
+  </body>
+</html>
